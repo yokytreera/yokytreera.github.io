@@ -1,7 +1,10 @@
 # My portfolio website: how it works
 
+> **Step-by-step recipes** (new project, About page, blog post, CV, publishing,
+> Git and GitHub) are in **[HOW-TO-UPDATE.md](HOW-TO-UPDATE.md)**.
+
 Built with **Quarto**. You write pages as `.qmd` text files; Quarto turns them
-into a website in the `_site/` folder. Live address (once published):
+into a website in the `_site/` folder. Live address:
 **https://yokytreera.github.io**
 
 ## Everyday use
@@ -60,15 +63,20 @@ into a website in the `_site/` folder. Live address (once published):
 
 ## Updating the CV PDF
 
-Rebuild your CV with `build_cv_e-t.py`, open the HTML in Chrome, then
-Print → Save as PDF (A4, margins None, Background graphics ON).
-**Remove the phone number first** (or ask Claude to). Save it over
-`files/Yoky-Treerasoradaj-CV.pdf`.
+Edit `CONTENT` in `../build_cv_e-t.py`, then in that folder run
+`python3 build_cv_e-t.py --pdf`. It writes the PDF straight to
+`files/Yoky-Treerasoradaj-CV.pdf`. Check it is two pages, with no phone number.
 
 ## Publishing (after the first setup)
 
-In the RStudio Terminal: `quarto publish gh-pages`
-This builds the site and uploads it. It is live about 1 minute later.
+In the RStudio Terminal, inside this folder:
+
+    python3 _scripts/check-before-publish.py
+    git add -A && git commit -m "What changed"
+    git push
+    quarto publish gh-pages --no-prompt --no-browser
+
+The site is live about a minute later. Details: HOW-TO-UPDATE.md, section 8.
 
 ## Markdown cheatsheet
 
