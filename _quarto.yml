@@ -1,0 +1,78 @@
+# =============================================================================
+# _quarto.yml — the MASTER SETTINGS file for the whole website.
+# Quarto reads this first. It decides: the site title, the menu bar, the footer,
+# and the look (theme). Lines starting with # are comments: Quarto ignores them.
+#
+# YAML rules (this file's format):
+#   - Indentation (spaces, never tabs) shows what belongs inside what.
+#   - "key: value" pairs. A "- " at the start means "an item in a list".
+# =============================================================================
+
+project:
+  type: website            # tells Quarto to build a multi-page website
+  output-dir: _site        # the finished website is written into this folder
+  render:                  # which files become pages ("*.qmd" = every .qmd file)
+    - "*.qmd"
+    - "!README.md"         # "!" = skip this one; the README is notes for you
+  resources:               # extra files copied into the site as they are
+    - files/
+    - images/
+    - js/
+  post-render:             # safety net after every build: removes private files and photo GPS data
+    - _scripts/clean-site.py
+
+website:
+  title: "Yoky Treerasoradaj"
+  site-url: "https://yokytreera.github.io"
+  search: true             # the magnifying-glass search box in the menu bar
+  page-navigation: false
+  back-to-top-navigation: true
+
+  # ---- Top menu bar ---------------------------------------------------------
+  # Each item: href = which .qmd file to open, text = the label shown.
+  # Add a section by copying two lines; remove one by deleting its two lines.
+  navbar:
+    left:
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: blog/index.qmd
+        text: Blog
+    right:
+      - text: "ไทย"          # the language switch (keep this exact label).
+        href: th/about.qmd   # Only the About page has a Thai version.
+
+  # ---- Footer at the bottom of every page ----------------------------------
+  page-footer:
+    left: "© 2026 Yoky Treerasoradaj"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/tnutachat/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:tnutachat@gmail.com
+        aria-label: Email
+
+format:
+  html:
+    # Two themes: Quarto shows a light/dark toggle in the menu bar.
+    # "cosmo" is a clean Bootstrap base; our .scss files sit on top of it.
+    theme:
+      light: [cosmo, styles/common.scss, styles/light.scss]
+      dark:  [cosmo, styles/common.scss, styles/dark.scss]
+    include-in-header: _includes/head.html   # loads the Thai font
+    include-after-body: _includes/after.html # loads the language-switch script
+    toc: true              # the "On this page" list on the right
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
+    lang: en
+    html-math-method: plain  # no maths on this site, so don't load an outside maths library
+
+# For future R code on project pages: re-run R only when that page changes,
+# so publishing stays fast and doesn't need every package installed.
+execute:
+  freeze: auto

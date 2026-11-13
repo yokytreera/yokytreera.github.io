@@ -1,0 +1,34 @@
+<!--
+  Added to the end of every page. Makes the EN / ไทย button work.
+
+  Only the About page has a Thai version (th/about.qmd).
+    - On any English page, the button says "ไทย" and opens th/about.html
+    - On the Thai About page, it says "EN" and goes back to about.html
+-->
+<script>
+(function () {
+  // Find where the site root is (works on your Mac AND on GitHub).
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var root = new URL(meta ? meta.content : "./", location.href).pathname;
+  var here = decodeURI(location.pathname).slice(root.length);
+  var isThai = here.indexOf("th/") === 0;
+
+  // The button is the menu item labelled "ไทย" in _quarto.yml.
+  var sw = null;
+  document.querySelectorAll("#quarto-header a.nav-link .menu-text").forEach(function (t) {
+    if (t.textContent.trim() === "ไทย") sw = t.closest("a");
+  });
+  if (!sw) return;
+  sw.id = "lang-switch";
+  if (isThai) {
+    sw.href = root + "about.html";
+    sw.querySelector(".menu-text").textContent = "EN";
+    sw.setAttribute("lang", "en");
+    sw.setAttribute("aria-label", "Switch to English");
+  } else {
+    sw.setAttribute("lang", "th");
+    sw.setAttribute("aria-label", "ข้อมูลภาษาไทย");
+  }
+})();
+</script>
+

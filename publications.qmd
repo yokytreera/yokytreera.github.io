@@ -1,0 +1,27 @@
+---
+title: "Publications"
+toc: false
+---
+
+```{=html}
+<a class="scholar-link" href="https://scholar.google.com/citations?user=LXX83BoAAAAJ&hl=en" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" width="1.25em" height="1.25em" fill="currentColor" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+  <span><em>Stand on the shoulders of giants.</em> See all my work on Google Scholar</span>
+</a>
+```
+
+Peer-reviewed articles and abstracts, newest first. Each title links to the published paper.
+
+<!-- To add one, copy a line and edit it. Link the title to its DOI:
+     [Title of the paper](https://doi.org/10.xxxx/xxxxx) ... [doi:10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx) -->
+
+## 2026
+
+1. Navadurong H, Teerawongsakul P, Trakarnvanich T, Ruamtawee W, **Treerasoradaj N**, Sethasine S. [Time-dependent predictive accuracy of noninvasive liver scores for chronic kidney disease onset in MASLD](https://doi.org/10.4254/wjh.122926). *World Journal of Hepatology*. 2026;18(7):122926. [doi:10.4254/wjh.122926](https://doi.org/10.4254/wjh.122926){.doi}
+2. Khanthawong W, Introntakun K, **Treerasoradaj N**. [The effect of a self-care support and education programme via the LINE application on knowledge and self-care behaviours among patients with hyperlipidaemia](https://he02.tci-thaijo.org/index.php/jcra/article/view/274740). *Journal of Chulabhorn Royal Academy*. 2026;8(1):13–22. [ThaiJO article page](https://he02.tci-thaijo.org/index.php/jcra/article/view/274740){.doi}
+
+## 2025
+
+3. Sethasine S, Trakarnvanich T, Ruamtawee W, **Treerasoradaj N**, Susantitaphong P. [Association of noninvasive tests of liver fibrosis with chronic kidney disease in MASLD: a systematic review and meta-analysis](https://doi.org/10.1038/s41598-025-26752-0). *Scientific Reports*. 2025;15(1):42681. [doi:10.1038/s41598-025-26752-0](https://doi.org/10.1038/s41598-025-26752-0){.doi}
+4. Sethasine S, Teerawongsakul P, Ruamtawee W, **Treerasoradaj N**, Navadurong H. [Added value of the albumin–bilirubin score in predicting liver-related complications and mortality in metabolic-associated steatotic liver disease](https://doi.org/10.3748/wjg.v31.i37.110829). *World Journal of Gastroenterology*. 2025;31(37):110829. [doi:10.3748/wjg.v31.i37.110829](https://doi.org/10.3748/wjg.v31.i37.110829){.doi}
+5. Teerawongsakul P, Navadurong H, **Treerasoradaj N**, Ruamtawee W, Sethasine S. [Clinical utility of the FIB-4 index for predicting cardiovascular outcomes in MASLD: a 10-year retrospective cohort study](https://doi.org/10.1093/eurheartj/ehaf784.4235). *European Heart Journal*. 2025;46(Suppl 1):ehaf784.4235. [Abstract]{.muted} [doi:10.1093/eurheartj/ehaf784.4235](https://doi.org/10.1093/eurheartj/ehaf784.4235){.doi}

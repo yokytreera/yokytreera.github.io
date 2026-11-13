@@ -1,0 +1,3 @@
+# Settings applied to EVERY page inside th/ (so you don't repeat them).
+lang: th                 # tells browsers and Google this text is Thai
+toc-title: "ในหน้านี้"     # "On this page"

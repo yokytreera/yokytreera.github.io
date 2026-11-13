@@ -1,0 +1,8 @@
+---
+title: "Welcome"
+description: "The first post on this site."
+date: 2026-11-08
+categories: [News]
+---
+
+[A first post. Delete or rewrite it whenever you like.]{.placeholder-note}

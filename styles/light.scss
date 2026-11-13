@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+// LIGHT THEME. Apple-style blues: #1D74F2 (brand blue), #1AC5FB (sky cyan), white.
+// "$name: value;" sets a Sass variable that Bootstrap/Quarto use everywhere.
+
+$ink:         #1d1d1f;   // main text: Apple's near-black
+$ink-2:       #3a3a3c;
+$muted:       #6e6e73;   // secondary text (dates, captions)
+$hairline:    #d2d2d7;   // thin dividing lines
+$panel:       #f5f5f7;   // soft grey card background
+$sierra:      #1AC5FB;   // sky cyan: lines, dots, borders (the variable keeps its old name)
+$sierra-deep: #1769e0;   // brand blue for text and buttons (a touch deeper than #1D74F2 so small text passes contrast)
+$link:        #0066cc;   // Apple link blue
+
+$body-bg:     #ffffff;
+$body-color:  $ink;
+$primary:     $sierra-deep;
+$link-color:  $link;
+$navbar-bg:   rgba(251, 251, 253, 0.8);
+$navbar-fg:   $ink;
+$navbar-hl:   $sierra-deep;
+$footer-bg:   $panel;
+$footer-fg:   $muted;
+
+/*-- scss:rules --*/
+// CSS custom properties: common.scss reads these, so one design file
+// works for both light and dark mode.
+:root {
+  --ink: #{$ink};
+  --ink-2: #{$ink-2};
+  --muted: #{$muted};
+  --hairline: #{$hairline};
+  --panel: #{$panel};
+  --card: #ffffff;
+  --sierra: #{$sierra};
+  --sierra-deep: #{$sierra-deep};
+  --sierra-wash: rgba(29, 116, 242, 0.07);
+  --brand: #1D74F2;
+  --brand-2: #1AC5FB;
+  --link: #{$link};
+  --on-accent: #ffffff;   // text on a blue button
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}

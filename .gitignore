@@ -1,0 +1,25 @@
+# ---- Never upload these to GitHub ----------------------------------------------
+# Private notes, interview answers, original photos (with location data),
+# source PDFs and slide decks. NEVER remove this line.
+_notes/
+
+# Build output and caches (the site is published separately with quarto publish)
+/.quarto/
+/_site/
+**/*.quarto_ipynb
+
+# RStudio and system files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Secrets, in case any are ever created
+.env
+.Renviron
+*.pem
+*.key
+
+# Archives and raw media that should stay on this computer
+*.zip

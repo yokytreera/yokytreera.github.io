@@ -1,0 +1,871 @@
+/*-- scss:defaults --*/
+// Shared by light AND dark. Colours come from light.scss / dark.scss.
+
+// Apple's system font first (SF Pro on Mac/iPhone), sensible fallbacks after.
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+  "SF Pro Display", "Helvetica Neue", "Noto Sans Thai", "Segoe UI", sans-serif;
+$font-size-root: 17px;      // Apple uses 17px body text
+$line-height-base: 1.6;
+$headings-font-weight: 600;
+$border-radius: 12px;
+$btn-border-radius: 980px;  // pill-shaped buttons, Apple style
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.011em;
+}
+
+// ---- Thai text: its own font and taller lines (tone marks need room) ------
+:lang(th), .lang-th {
+  font-family: "Noto Sans Thai", "Thonburi", "Leelawadee UI", sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+
+// ---- Headings: large, tight, confident ------------------------------------
+h1, .title {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--hairline);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+h3 { color: var(--sierra-deep); }
+
+// ---- Frosted-glass menu bar (like apple.com) -------------------------------
+#quarto-header .navbar {
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--hairline);
+  font-size: 0.88rem;
+}
+#quarto-header .navbar .nav-link,
+#quarto-header .navbar .navbar-brand,
+#quarto-header .navbar .menu-text { color: var(--ink) !important; }
+#quarto-header .navbar .nav-link.active .menu-text { color: var(--sierra-deep) !important; }
+#lang-switch {
+  border: 1px solid var(--hairline);
+  border-radius: 980px;
+  padding: 0.15rem 0.8rem !important;
+  margin-left: 0.5rem;
+}
+
+// ---- Muted helper text, e.g. dates ----------------------------------------
+.muted, .date { color: var(--muted); }
+.placeholder-note {
+  color: var(--muted);
+  font-style: italic;
+}
+
+// ---- HOME PAGE: hero section ----------------------------------------------
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  img.hero-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--sierra-wash);
+    margin-bottom: 1.5rem;
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin: 0 0 0.75rem;
+    border: none;
+  }
+  .hero-tagline {
+    font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+    color: var(--muted);
+    max-width: 38rem;
+    margin: 0 auto 1.75rem;
+  }
+}
+
+// Pill buttons
+.btn-pill {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  margin: 0.25rem;
+  border-radius: 980px;
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--sierra-deep);
+  color: var(--on-accent);
+  &:hover { opacity: 0.88; color: var(--on-accent); }
+  &.ghost {
+    background: transparent;
+    color: var(--link);
+    border: 1px solid var(--link);
+    &:hover { background: var(--sierra-wash); }
+  }
+}
+
+// ---- Cards (home highlights) ----------------------------------------------
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 3rem;
+}
+.feature-card {
+  background: var(--panel);
+  border-radius: 18px;
+  padding: 1.5rem;
+  .card-kicker {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--sierra-deep);
+  }
+  h3 { margin-top: 0.4rem; color: var(--ink); font-size: 1.2rem; }
+  p { color: var(--muted); margin-bottom: 0; font-size: 0.95rem; }
+}
+
+// ---- About page: profile link row -----------------------------------------
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+  a {
+    padding: 0.3rem 0.9rem;
+    border-radius: 980px;
+    background: var(--sierra-wash);
+    color: var(--sierra-deep);
+    text-decoration: none;
+    font-size: 0.9rem;
+    &:hover { background: var(--sierra); color: #000; }
+  }
+}
+
+// Two-column "item ..... year" lists (education, awards…)
+.ledger ul { list-style: none; padding-left: 0; }
+.ledger li {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+// ---- Listing pages (Projects, Blog) ---------------------------------------
+.quarto-grid-item.card {
+  border: none;
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+// ---- Footer ----------------------------------------------------------------
+.nav-footer { border-top: 1px solid var(--hairline); font-size: 0.85rem; }
+
+// ---- Added in step 2 -------------------------------------------------------
+
+// Years/dates pushed to the right of a line: [2024]{.yr}
+.yr {
+  float: right;
+  margin-left: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+h3 + p .yr, h3 + p { color: var(--muted); }
+#quarto-document-content h3 { margin-top: 1.75rem; margin-bottom: 0.2rem; }
+
+// Highlighted first link in the profile-links row (Download CV)
+.profile-links a.primary {
+  background: var(--sierra-deep);
+  color: var(--on-accent);
+  &:hover { opacity: 0.88; background: var(--sierra-deep); color: var(--on-accent); }
+}
+
+// Skill "chips"
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 1rem; }
+.chip {
+  border: 1px solid var(--hairline);
+  border-radius: 980px;
+  padding: 0.25rem 0.85rem;
+  font-size: 0.9rem;
+  color: var(--ink-2);
+}
+
+// Row of SDG icons
+.sdg-row p { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.sdg-row img { width: 72px; height: 72px; border-radius: 6px; margin: 0; }
+
+// Subtitle under a page title (used on the Thai page)
+.subtitle { color: var(--muted); font-weight: 400; }
+
+// ---- Home page, step 3: waves, icon links, buttons under the cards --------
+
+// Stop the full-width waves from causing sideways scrolling
+html, body { overflow-x: clip; }
+
+.hero {
+  padding-bottom: 2rem;
+}
+// The box around your photo; the waves fill it, the photo sits on top
+.photo-stage {
+  position: relative;
+  isolation: isolate;          // keeps the waves behind the photo only
+  padding: 3rem 0 2rem;        // how much wave shows above/below the photo
+  margin-bottom: 0.5rem;
+  > *:not(.hero-bg) { position: relative; z-index: 1; }
+  img.hero-photo { margin-bottom: 0; }
+}
+// The animated background box behind the photo
+.hero-bg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;        // clicks go through to the photo and links
+}
+// Waves: edge to edge of the window
+.hero-bg.is-waves { width: 100vw; }
+// Rising lines: a compact box just around the photo, edges melting away
+.hero-bg.is-rising {
+  width: min(92vw, 520px);
+  -webkit-mask-image: radial-gradient(ellipse 50% 62% at 50% 62%, #000 55%, transparent 100%);
+          mask-image: radial-gradient(ellipse 50% 62% at 50% 62%, #000 55%, transparent 100%);
+}
+.rising-lines-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+// Temporary switch for comparing the two backgrounds (see js/hero-bg.js)
+.bg-compare {
+  position: fixed;
+  z-index: 1050;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.3rem;
+  border-radius: 980px;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  font-size: 0.85rem;
+  button {
+    border: 0;
+    border-radius: 980px;
+    padding: 0.35rem 0.9rem;
+    white-space: nowrap;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    &.active { background: var(--sierra-deep); color: var(--on-accent); }
+  }
+}
+.sliced-waves-container { overflow: hidden; }
+.sliced-waves-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+// Round icon buttons under the tagline
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  p { display: contents; }
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--sierra-deep);
+    background: var(--sierra-wash);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    text-decoration: none;
+    transition: transform 0.15s ease, background 0.15s ease;
+    &:hover { transform: translateY(-2px); background: var(--sierra); color: #000; }
+  }
+}
+
+// The three highlight cards: a little lift on hover
+.feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+  h3 { margin-top: 0; }
+}
+.card-grid { margin-top: 0; }
+
+// Buttons row under the cards
+.cta-row { text-align: center; margin: 0 0 3rem; }
+
+// ---- Project pages (shared by every project) -------------------------------
+
+// Fact box at the top: Years / Role / Where / Team / Tools / Funding
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);   // 6 facts = 2 neat rows
+  @media (max-width: 600px) { grid-template-columns: repeat(2, 1fr); }
+  gap: 1px;
+  background: var(--hairline);
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  .fact {
+    background: var(--panel);
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    p { margin: 0; }
+  }
+  .fact-k {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin-bottom: 0.2rem;
+  }
+}
+
+// Big number tiles: the headline results
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  .stat {
+    text-align: center;
+    padding: 1.1rem 0.75rem;
+    border-radius: 16px;
+    background: var(--sierra-wash);
+    p { margin: 0; }
+  }
+  .stat-n {
+    display: block;
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--sierra-deep);
+    line-height: 1.15;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-l {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 0.3rem;
+    line-height: 1.35;
+  }
+}
+
+// Impact band: the headline results, on a brand-blue panel.
+// Fixed colours so it looks the same in light and dark mode.
+.impact-band {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 1000px) { grid-template-columns: repeat(2, 1fr); }
+  gap: 1px;
+  margin: 1.75rem 0 2.5rem;
+  border-radius: 22px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.14);           // the thin lines between tiles
+  box-shadow: 0 18px 40px -18px rgba(29, 116, 242, 0.55);
+  .impact {
+    position: relative;
+    padding: 1.6rem 1.1rem 1.4rem;
+    text-align: center;
+    background:
+      radial-gradient(120% 90% at 50% 0%, rgba(26, 197, 251, 0.40), transparent 62%),
+      linear-gradient(160deg, #1663d6 0%, #0a3a8c 100%);
+    p { margin: 0; }
+  }
+  .impact-n {
+    display: block;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+  }
+  .impact-l {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.86rem;
+    line-height: 1.35;
+    color: #e3eeff;
+  }
+}
+
+// UN SDG icons on a project page: bigger, no caption needed
+.sdg-project p { gap: 0.9rem; }
+.sdg-project img { width: 112px; height: 112px; border-radius: 10px; }
+
+// Subtitle under a project title
+.quarto-title .subtitle { font-size: 1.15rem; margin-top: 0.4rem; }
+
+// Workflow (swimlane) diagrams
+.wf-figure { margin: 1.25rem 0 1.5rem; }
+.wf-cap {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  strong { color: var(--ink); }
+}
+.wf-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 14px;
+}
+.wf-svg {
+  display: block;
+  width: 100%;
+  min-width: 900px;          // on phones the diagram scrolls sideways
+  height: auto;
+  font-family: inherit;
+  font-size: 12.5px;
+  .wf-frame { fill: none; stroke: var(--hairline); }
+  .wf-lane-label { fill: var(--panel); }
+  .wf-lane-label.hi { fill: var(--sierra-wash); }
+  .wf-lane-hi { fill: var(--sierra-wash); }
+  .wf-lane-text { fill: var(--ink-2); font-weight: 600; font-size: 13px; }
+  .wf-sep { stroke: var(--hairline); }
+  .wf-arrow { fill: none; stroke: var(--muted); stroke-width: 1.3; }
+  .wf-arrow.dashed { stroke-dasharray: 4 4; }
+  .wf-head { fill: var(--muted); }
+  .wf-box rect { fill: var(--card); stroke: var(--hairline); stroke-width: 1.2; }
+  .wf-box text { fill: var(--ink); }
+  .wf-box.problem rect { stroke: #e0583c; stroke-width: 1.6; fill: rgba(224, 88, 60, 0.08); }
+  .wf-box.robot rect { fill: var(--sierra-deep); stroke: none; }
+  .wf-box.robot text { fill: var(--on-accent); font-weight: 500; }
+  .wf-box.start rect, .wf-box.end rect { fill: var(--panel); stroke: var(--sierra); stroke-width: 1.4; }
+  .wf-badge { fill: #e0583c; }
+  .wf-badge-r { fill: var(--sierra); }
+  .wf-badge-t { fill: #fff; font-size: 11px; font-weight: 700; }
+}
+.wf-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 2rem;
+  span { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .k { width: 18px; height: 12px; border-radius: 3px; display: inline-block; border: 1.2px solid var(--hairline); background: var(--card); }
+  .k.problem { border-color: #e0583c; background: rgba(224, 88, 60, 0.12); }
+  .k.robot { background: var(--sierra-deep); border-color: var(--sierra-deep); }
+  .k.end { border-radius: 6px; border-color: var(--sierra); background: var(--panel); }
+}
+
+// Project pages: hide the "Published" date and the repeated description
+.project-page #title-block-header .quarto-title-meta,
+.project-page #title-block-header .description { display: none !important; }
+
+// ---- About page: "My journey" timeline -----------------------------------
+.journey {
+  position: relative;
+  margin: 1.5rem 0 2.5rem;
+  padding-left: 1.75rem;
+  border-left: 2px solid var(--hairline);
+}
+.j-item {
+  position: relative;
+  margin-bottom: 2.25rem;
+  &::before {                       // the dot on the line
+    content: "";
+    position: absolute;
+    left: calc(-1.75rem - 7px);
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bs-body-bg);
+    border: 2px solid var(--sierra);
+  }
+  h3 { margin: 0.15rem 0 0.1rem; color: var(--ink); font-size: 1.2rem; }
+  ul { margin-bottom: 0.6rem; }
+  p { margin-bottom: 0.6rem; }
+}
+.j-when {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--sierra-deep);
+}
+.j-org { display: block; color: var(--muted); font-size: 0.95rem; margin-bottom: 0.5rem; }
+// The 2021 turning point stands out
+.j-turn {
+  background: var(--sierra-wash);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  margin-left: -0.5rem;
+  &::before {
+    left: calc(-1.75rem - 9px + 0.5rem);
+    top: 1.3rem;
+    width: 16px;
+    height: 16px;
+    background: var(--sierra-deep);
+    border-color: var(--sierra-deep);
+    box-shadow: 0 0 0 5px var(--sierra-wash);
+  }
+}
+// Linked skill tags (open the Projects page filtered to that skill)
+a.chip-link {
+  text-decoration: none;
+  color: var(--sierra-deep);
+  border-color: var(--sierra);
+  &:hover { background: var(--sierra-wash); }
+  &::after { content: " →"; font-size: 0.8em; opacity: 0.6; }
+}
+// Keep every skill tag on one line
+.chips p { display: contents; }
+.chip { display: inline-block; white-space: nowrap; }
+
+// ---- About page: "My journey and experience" (one timeline, newest first) ---
+.story {
+  position: relative;
+  margin: 1.75rem 0 3rem;
+  padding-left: 2rem;
+  &::before {                        // the line: strong at the top (now), fading to the past
+    content: "";
+    position: absolute;
+    left: 6px; top: 0.4rem; bottom: 0.4rem;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--sierra-deep), var(--sierra) 45%, var(--hairline));
+  }
+}
+.ch {
+  position: relative;
+  margin-bottom: 2.4rem;
+  &::before {                        // the dot
+    content: "";
+    position: absolute;
+    left: calc(-2rem + 1px);
+    top: 0.25rem;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--bs-body-bg);
+    border: 2px solid var(--sierra-deep);
+  }
+  &:first-child::before {            // "now": filled dot with a soft halo
+    background: var(--sierra-deep);
+    box-shadow: 0 0 0 5px var(--sierra-wash);
+  }
+  h3 {
+    margin: 0.2rem 0 0.1rem;
+    font-size: 1.22rem;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  p { margin-bottom: 0.7rem; }
+  ul { margin-bottom: 0.8rem; padding-left: 1.1rem; }
+  li { margin-bottom: 0.3rem; }
+}
+.ch-when {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--sierra-deep);
+  font-variant-numeric: tabular-nums;
+}
+.ch-where { font-weight: 400; color: var(--muted); }
+.ch-org { display: block; color: var(--muted); font-size: 0.92rem; margin-bottom: 0.6rem; }
+.ch-label {
+  display: block;
+  margin: 0.2rem 0 0.35rem;
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+// The turning point: a tinted card
+.ch-turn {
+  background: var(--sierra-wash);
+  border-radius: 18px;
+  padding: 1.1rem 1.25rem 0.5rem;
+  margin-left: -0.6rem;
+  &::before { left: calc(-2rem + 1px + 0.6rem); top: 1.35rem; }
+}
+
+// Ready to connect: contact details in a soft card
+.connect-card {
+  margin: 1rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border-radius: 16px;
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { margin: 0.25rem 0; }
+}
+
+// ---- Kaggle climb chart -----------------------------------------------------
+.kg-figure { margin: 1rem 0 1.5rem; }
+.kg-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.kg-svg {
+  display: block; width: 100%; min-width: 560px; height: auto;
+  font-family: inherit;
+  .kg-grid { stroke: var(--hairline); stroke-width: 1; }
+  .kg-sep { stroke: var(--hairline); stroke-dasharray: 3 4; }
+  .kg-tick, .kg-x { fill: var(--muted); font-size: 12px; }
+  .kg-sem { fill: var(--ink-2); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; }
+  .kg-line { fill: none; stroke: var(--sierra-deep); stroke-width: 2; stroke-linejoin: round; }
+  .kg-hit { fill: transparent; }
+  .kg-halo { fill: var(--sierra-wash); stroke: var(--sierra); stroke-width: 1.5; }
+  .kg-dot { fill: var(--sierra-deep); stroke: var(--bs-body-bg); stroke-width: 2; }
+  .team .kg-dot { fill: var(--bs-body-bg); stroke: var(--sierra-deep); stroke-width: 2.5; }
+  .kg-pt { cursor: default; }
+  .kg-pt:hover .kg-dot { r: 8; }
+  .kg-lab { fill: var(--ink); font-size: 12px; font-weight: 600; }
+}
+.kg-legend {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem;
+  font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem;
+  span { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .k { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 2.5px solid var(--sierra-deep); }
+  .k.solo { background: var(--sierra-deep); }
+  .k.team { background: var(--bs-body-bg); }
+}
+
+// Consistency strip on the competitions page: three quiet numbers in a row
+.consistency-band {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  gap: 0;
+  margin: 1.25rem 0 1.5rem;
+  border-top: 2px solid var(--sierra-deep);
+  border-bottom: 1px solid var(--hairline);
+  .cb { padding: 0.9rem 1rem 0.9rem 0; p { margin: 0; } }
+  .cb + .cb { padding-left: 1rem; border-left: 1px solid var(--hairline);
+    @media (max-width: 600px) { padding-left: 0; border-left: none; border-top: 1px solid var(--hairline); } }
+  .cb-n { display: block; font-size: 1.9rem; font-weight: 700; letter-spacing: -0.02em; color: var(--sierra-deep); line-height: 1.1; }
+  .cb-l { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; line-height: 1.35; }
+}
+
+// ---- Clinical decision support page ------------------------------------------
+// Bar charts (generated by _notes/tools/make_cdss_charts.py)
+.bc-figure { margin: 1.25rem 0 1.75rem; }
+.bc-cap { font-size: 0.92rem; color: var(--muted); margin-bottom: 0.5rem; strong { color: var(--ink); } }
+.bc-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.bc-svg {
+  display: block; width: 100%; min-width: 520px; height: auto; font-family: inherit;
+  .bc-grid { stroke: var(--hairline); stroke-width: 1; }
+  .bc-tick { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .bc-x { fill: var(--ink-2); font-size: 13px; font-weight: 600; }
+  .bc-sub { fill: var(--muted); font-size: 11.5px; }
+  .bc-val { fill: var(--ink); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .bc-cds { fill: var(--sierra-deep); }
+  .bc-man { fill: var(--muted); opacity: 0.55; }
+  .bc-hit { fill: transparent; }
+  .bc-in { fill: var(--on-accent); font-size: 14px; font-weight: 700; }
+  .bc-in-2 { fill: var(--ink); font-size: 14px; font-weight: 600; }
+  .bc-col:hover .bc-cds { filter: brightness(1.12); }
+  .bc-col:hover .bc-man { opacity: 0.8; }
+}
+.bc-scroll-sm .bc-svg { min-width: 440px; }
+.bc-legend {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem;
+  span { display: inline-flex; align-items: center; gap: 0.45rem; }
+  .k { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .k.cds { background: var(--sierra-deep); }
+  .k.man { background: var(--muted); opacity: 0.55; }
+}
+
+// "How it works": four numbered steps in a row
+.pipeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 1000px) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 460px) { grid-template-columns: 1fr; }
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.75rem;
+  .pl-step {
+    position: relative;
+    padding: 1rem 1rem 0.9rem;
+    border-radius: 16px;
+    background: var(--panel);
+    border: 1px solid var(--hairline);
+    font-size: 0.92rem; line-height: 1.45;
+    p { margin: 0; }
+  }
+  .pl-n {
+    display: grid; place-items: center;
+    width: 28px; height: 28px; margin-bottom: 0.5rem;
+    border-radius: 50%;
+    background: var(--sierra-deep); color: var(--on-accent);
+    font-size: 0.85rem; font-weight: 700;
+  }
+}
+
+// Example patients
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 900px) { grid-template-columns: 1fr; }
+  gap: 0.75rem;
+  margin: 1rem 0 1rem;
+  .case {
+    padding: 1rem 1.1rem;
+    border-radius: 16px;
+    border: 1px solid var(--hairline);
+    border-top: 3px solid var(--sierra);
+    background: var(--card);
+    font-size: 0.93rem; line-height: 1.45;
+    p { margin: 0 0 0.6rem; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 1.05rem; margin: 0.5rem 0 0; }
+    li { margin-bottom: 0.45rem; }
+    li:last-child { margin-bottom: 0; }
+  }
+  .case-k {
+    display: block; font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.07em; color: var(--sierra-deep);
+  }
+}
+
+// Cycle of innovation diagram
+.cycle-figure { margin: 1rem auto 1.5rem; max-width: 640px; }
+.cycle-svg {
+  display: block; width: 100%; height: auto; font-family: inherit;
+  .cy-arc { fill: none; stroke: var(--sierra); stroke-width: 2.5; }
+  .cy-head { fill: var(--sierra); }
+  .cy-core { fill: var(--sierra-deep); }
+  .cy-core-t { fill: var(--on-accent); font-size: 17px; font-weight: 700; }
+  .cy-node rect { fill: var(--card); stroke: var(--hairline); stroke-width: 1.2; }
+  .cy-n { fill: var(--ink); font-size: 15px; font-weight: 700; }
+  .cy-d { fill: var(--muted); font-size: 12px; }
+}
+
+// Screenshots side by side
+.shots {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  gap: 1rem;
+  align-items: start;
+  img { border-radius: 12px; }
+}
+.shots.shots-wide { grid-template-columns: 1fr; img { border: 1px solid var(--hairline); } }
+
+// ---- Hover preview for project links (js/hover-preview.js, About page) -------
+.hp-card {
+  position: fixed; left: 0; top: 0; z-index: 1080;
+  width: 280px; overflow: hidden; pointer-events: none;
+  background: var(--card); color: var(--ink);
+  border: 1px solid var(--hairline); border-radius: 14px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.08);
+  opacity: 0; visibility: hidden; transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0.18s;
+  &.below { transform: translateY(-6px); }
+  &.is-on { opacity: 1; visibility: visible; transform: none; transition: opacity 0.18s ease, transform 0.18s ease; }
+  .hp-img { display: block; width: 100%; height: 140px; object-fit: cover; object-position: top center; border-bottom: 1px solid var(--hairline); }
+  .hp-body { padding: 0.7rem 0.85rem 0.8rem; }
+  .hp-t { font-size: 0.9rem; font-weight: 700; line-height: 1.3; }
+  .hp-d {
+    margin-top: 0.3rem; font-size: 0.8rem; line-height: 1.4; color: var(--muted);
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  @media (prefers-reduced-motion: reduce) { transform: none !important; }
+}
+
+// ---- Photo grid (two per row, one on phones) ----------------------------------
+.photo-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.25rem 0 1.75rem;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  .quarto-figure, figure, p { margin: 0; }
+  img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 12px; }
+  figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+}
+.case-grid.case-grid-2 { grid-template-columns: repeat(2, 1fr); @media (max-width: 760px) { grid-template-columns: 1fr; } }
+
+// ---- Video ----------------------------------------------------------------------
+.video-figure {
+  margin: 1rem 0 1.75rem;
+  video { display: block; width: 100%; height: auto; border-radius: 14px; background: #000; border: 1px solid var(--hairline); }
+  figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+}
+.award-photo { max-width: 560px; border-radius: 12px; }
+
+// ---- About: focus areas (numbered rows) -------------------------------------
+.focus-list {
+  margin: 0.75rem 0 1.25rem; border-top: 1px solid var(--hairline);
+  .focus {
+    display: grid; grid-template-columns: 2.6rem 1fr; column-gap: 0.5rem;
+    padding: 0.8rem 0; border-bottom: 1px solid var(--hairline);
+    p { margin: 0; grid-column: 2; }
+  }
+  .focus-n { grid-column: 1; grid-row: 1 / span 2; font-size: 1.05rem; font-weight: 700; color: var(--sierra-deep); font-variant-numeric: tabular-nums; line-height: 1.5; }
+  .focus-d { display: block; color: var(--muted); font-size: 0.93rem; margin-top: 0.15rem; }
+}
+
+// ---- About: CHIA badge in the connect card ----------------------------------
+.connect-card .credential {
+  display: flex; align-items: center; gap: 0.9rem;
+  padding-bottom: 0.85rem; margin-bottom: 0.75rem; border-bottom: 1px solid var(--hairline);
+  p { margin: 0; display: contents; }
+  .chia-badge { width: 64px; height: 64px; flex: none; margin: 0; }
+  .credential-t { font-size: 0.92rem; line-height: 1.4; color: var(--muted); strong { color: var(--ink); } }
+}
+
+// ---- Projects page: show each project's years as a small label above the title --
+.quarto-grid-item .card-body { display: flex; flex-direction: column; }
+.quarto-grid-item .card-other-values {
+  order: -1; margin: 0 0 0.35rem; border: 0; width: auto;
+  tr, td { border: 0; padding: 0; background: none; }
+  td:not(.years) { display: none; }
+  td.years {
+    font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em;
+    color: var(--sierra-deep); font-variant-numeric: tabular-nums;
+  }
+}
+
+// ---- Publications: Google Scholar link and DOI tags --------------------------
+.scholar-link {
+  display: inline-flex; align-items: center; gap: 0.65rem;
+  margin: 0.25rem 0 1.25rem; padding: 0.6rem 1.1rem;
+  border: 1px solid var(--hairline); border-radius: 999px;
+  background: var(--panel); color: var(--ink); text-decoration: none;
+  font-size: 0.95rem; line-height: 1.3;
+  svg { color: var(--brand); flex: none; }
+  em { color: var(--sierra-deep); font-style: italic; }
+  &:hover { border-color: var(--sierra); color: var(--ink); background: var(--sierra-wash); }
+}
+.doi {
+  display: inline-block; margin-left: 0.25rem; padding: 0 0.45rem;
+  font-size: 0.78rem; border: 1px solid var(--hairline); border-radius: 6px;
+  color: var(--muted); text-decoration: none; white-space: nowrap;
+  &:hover { color: var(--sierra-deep); border-color: var(--sierra); }
+}

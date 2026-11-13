@@ -1,0 +1,11 @@
+---
+title: "Blog"
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+---
+
+Notes on health data, forecasting and digital health.

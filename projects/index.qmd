@@ -1,0 +1,16 @@
+---
+title: "Projects"
+toc: false
+# A "listing" page builds itself: Quarto finds every project folder below
+# and shows each one as a card. To add a project, copy a folder and edit it.
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: true
+  fields: [image, years, title, description, categories]
+  image-placeholder: ../images/card-placeholder.svg
+---
+
+Past, current and future work, newest first.

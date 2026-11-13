@@ -1,0 +1,2 @@
+# Settings for every page inside projects/
+body-classes: project-page   # lets styles/common.scss style project pages

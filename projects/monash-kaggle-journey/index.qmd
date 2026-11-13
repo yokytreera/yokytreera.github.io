@@ -1,0 +1,142 @@
+---
+# PROJECT PAGE. Data for the chart lives in _notes/tools/make_kaggle_chart.py.
+# (The folder keeps its old name so links to it don't break.)
+title: "From Mid-Table to the Top 2%: My Competitions at Monash"
+subtitle: "Eight class competitions in machine learning and forecasting, over three semesters"
+description: "Eight Monash class competitions: from beating about half the field to 5th of 340 forecasting Google's stock price, and 27th of 285 with an ICU mortality model."
+years: "2025 – 2026"     # shown on the Projects card
+date: 2025-07-01      # start of the project: sorts the cards, newest first
+categories: [Machine learning, Forecasting, Neural networks, Python, R]
+toc: true
+---
+
+::: {.fact-grid}
+::: {.fact}
+[Years]{.fact-k}
+2025 – 2026
+:::
+::: {.fact}
+[Where]{.fact-k}
+Monash University, Melbourne
+:::
+::: {.fact}
+[Competitions]{.fact-k}
+8 so far: 5 solo, 3 in a team of four
+:::
+::: {.fact}
+[Tasks]{.fact-k}
+Regression, classification, image recognition, recommender systems, time series forecasting
+:::
+::: {.fact}
+[Models]{.fact-k}
+Moving averages and RSI, linear and logistic regression, decision trees, neural networks, CNNs, RNNs, transformers
+:::
+::: {.fact}
+[Tools]{.fact-k}
+R in 2025, Python in 2026
+:::
+:::
+
+::: {.impact-band}
+::: {.impact}
+[5th]{.impact-n}
+[of 340, forecasting Google's stock price]{.impact-l}
+:::
+::: {.impact}
+[27th]{.impact-n}
+[of 285 teams, ICU mortality model]{.impact-l}
+:::
+::: {.impact}
+[2nd]{.impact-n}
+[electricity demand, team submitted my model]{.impact-l}
+:::
+::: {.impact}
+[99%]{.impact-n}
+[of the field behind me, up from 49%]{.impact-l}
+:::
+:::
+
+## The climb
+
+Each point is one competition, oldest first. The height shows the share of the other entrants I finished ahead of, so higher is better.
+
+{{< include _chart.html >}}
+
+My second competition was my low point: I finished in the middle of the leaderboard. From the next semester on, every result landed ahead of 86 to 99% of the field, solo and in a team.
+
+## What changed: consistency
+
+The two 2025 competitions came in Statistical Modelling, my first mathematics unit in a decade. I tried almost every method I had learned, and the results were average. Looking back, I had rushed past the most important part: exploring the data and understanding it before modelling. Tree-based models with pruning, such as XGBoost, were completely new to me.
+
+So I changed how I work. Before each new competition I studied how experienced practitioners approached similar problems, on Kaggle, Medium, Reddit and other forums. I used AI coding assistants such as Claude to test ideas faster, and I kept looking for another way to improve the score after the obvious ones ran out.
+
+::: {.consistency-band}
+::: {.cb}
+[3]{.cb-n}
+[semesters in a row with at least two competitions]{.cb-l}
+:::
+::: {.cb}
+[6 of 6]{.cb-n}
+[results since 2026 ahead of at least 85% of the field]{.cb-l}
+:::
+::: {.cb}
+[3 of 3]{.cb-n}
+[team competitions where the team used my model]{.cb-l}
+:::
+:::
+
+That is the strength I'm proudest of: consistency. I don't give up when a result is disappointing; I go back, learn what I missed and come again. This is only the first step of my machine learning career, and I'd love to work with people who bring the same energy.
+
+## Spotlight: forecasting Google's stock price
+
+My Applied Forecasting class ran a competition to forecast Google's closing stock price on 5 October 2026. I made my forecast on 3 August, about two months ahead, and placed **5th out of 340**.
+
+::: {.stat-row}
+::: {.stat}
+[US$345.00]{.stat-n}
+[my forecast, made on 3 August]{.stat-l}
+:::
+::: {.stat}
+[US$343.83]{.stat-n}
+[actual closing price, 5 October]{.stat-l}
+:::
+::: {.stat}
+[0.3%]{.stat-n}
+[forecast error]{.stat-l}
+:::
+:::
+
+I combined two technical-analysis tools: moving averages (MA), which smooth out day-to-day noise to show the trend, and the relative strength index (RSI), which shows when a stock has been bought or sold too heavily and is likely to turn.
+
+A stock chart is more than a line. It records the greed and fear of millions of investors, and the uncertainty they live with. My result reflects that understanding of what sits behind the graph, not just the trend line. Health services face the same problem when they plan beds, staff and budgets under uncertainty, and that's the kind of forecasting I want to bring to hospitals.
+
+## Every competition
+
+| Semester | Competition | Task | My role | Rank | Ahead of |
+|---|---|---|---|---:|---:|
+| 2025 S2 | Happiness from survey data (Statistical Modelling) | Regression | Solo | 90 / 313 | 72% |
+| 2025 S2 | "Always anxious" (Statistical Modelling) | Classification | Solo | 153 / 301 | 49% |
+| 2026 S1 | Death in an ICU | Classification | Solo | 27 / 285 | 91% |
+| 2026 S1 | Recommender system (FIT5212) | Recommender | Solo | 10 / 92 | 90% |
+| 2026 S2 | **Google stock price** (Applied Forecasting) | Forecasting | Solo | **5 / 340** | **99%** |
+| 2026 S2 | House prices (ETC3555/5555) | Regression | Team · my base model | 3 / 18 | 88% |
+| 2026 S2 | Image classification (ETC3555/5555) | Classification | Team · my model | 3 / 18 | 88% |
+| 2026 S2 | Electricity demand (ETC3555/5555) | Forecasting | Team · my model | 2 / 8 | 86% |
+
+**Team · my model:** the team submitted the model I built. **Team · my base model:** a teammate trained my model further before submitting. I used R in 2025 and Python in 2026.
+
+"Ahead of" is the share of the other entrants who finished below me: (entrants − rank) ÷ (entrants − 1). Results are from the class leaderboards on my [Kaggle profile](https://www.kaggle.com/yokytreerasoradaj). The competitions are private, and unit rules don't allow the code to be shared.
+
+## Insight
+
+Eight competitions looked like eight different problems: stock prices, electricity demand, house prices, images, ICU patients. Underneath, every model had the same core. It learns patterns from past data, tests itself on data it hasn't seen, and makes a prediction we can check. Change the data, and the same skills work in almost any sector.
+
+That is what excites me about bringing machine learning back to medicine:
+
+- **Predicting disease before it starts.** The model that ranked ICU patients by risk of death can, with the right data, forecast who is likely to develop diabetes, heart disease or kidney failure, years before it happens. Health services could then step in with prevention instead of treatment.
+- **Learning more from medical data.** Models can find patterns across thousands of patients that no single doctor sees, giving us new insight into what drives disease and which care leads to the best outcome.
+- **Genomic medicine.** As genetic testing becomes routine, machine learning can help identify the people at high risk of cancer, so we can screen them earlier, or prevent the cancer altogether.
+- **Beyond health care.** The same tools can help with problems like global warming, for example searching plant data for species that absorb far more carbon dioxide than others.
+
+The more good data we have, the more of these questions we can answer. That's the work I want to do.
+

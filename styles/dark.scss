@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+// DARK THEME: the same palette, re-tuned for a black background
+// the way Apple does it (pure black page, dark-grey cards, lighter blue).
+
+$ink:         #f5f5f7;
+$ink-2:       #d2d2d7;
+$muted:       #a1a1a6;
+$hairline:    #424245;
+$panel:       #1d1d1f;
+$sierra:      #1AC5FB;   // sky cyan
+$sierra-deep: #5aa7ff;   // lighter brand blue so it stays readable on black
+$link:        #2997ff;   // Apple's dark-mode link blue
+
+$body-bg:     #000000;
+$body-color:  $ink;
+$primary:     $sierra-deep;
+$link-color:  $link;
+$navbar-bg:   rgba(22, 22, 23, 0.8);
+$navbar-fg:   $ink;
+$navbar-hl:   $sierra-deep;
+$footer-bg:   #161617;
+$footer-fg:   $muted;
+
+/*-- scss:rules --*/
+:root {
+  --ink: #{$ink};
+  --ink-2: #{$ink-2};
+  --muted: #{$muted};
+  --hairline: #{$hairline};
+  --panel: #{$panel};
+  --card: #1d1d1f;
+  --sierra: #{$sierra};
+  --sierra-deep: #{$sierra-deep};
+  --sierra-wash: rgba(41, 151, 255, 0.13);
+  --brand: #1D74F2;
+  --brand-2: #1AC5FB;
+  --link: #{$link};
+  --on-accent: #000000;   // dark text on the lighter dark-mode blue
+  --shadow: none;
+}
