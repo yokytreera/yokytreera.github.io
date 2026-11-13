@@ -1,0 +1,520 @@
+[
+  {
+    "objectID": "th/about.html",
+    "href": "th/about.html",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "",
+    "text": "ดาวน์โหลด CV (PDF) LinkedIn อีเมล English version"
+  },
+  {
+    "objectID": "th/about.html#ประวตโดยยอ",
+    "href": "th/about.html#ประวตโดยยอ",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "ประวัติโดยย่อ",
+    "text": "ประวัติโดยย่อ\nแพทย์ที่มีประสบการณ์ด้านเวชปฏิบัติและระบบสุขภาพในประเทศไทยกว่าห้าปี ปัจจุบันศึกษา Master of Health Data Analytics ที่ Monash University, Melbourne ด้วยทุน Australia for ASEAN Scholarship\nจุดเปลี่ยนเกิดขึ้นในปี 2021 ระหว่างเป็นแพทย์เพิ่มพูนทักษะในโรงพยาบาลต่างจังหวัดช่วง COVID-19 ได้เห็นว่าระบบข้อมูลที่ไม่ดีทำให้การรักษาล่าช้า บุคลากรหมดแรง และผู้ป่วยบางรายเสียชีวิตทั้งที่ป้องกันได้ ตั้งแต่นั้นจึงใช้ข้อมูลเพื่อสามเรื่อง คือ ทำให้การรักษาปลอดภัยขึ้น คืนเวลาให้บุคลากร และลดต้นทุนที่สูญเปล่า"
+  },
+  {
+    "objectID": "th/about.html#ความสนใจหลก",
+    "href": "th/about.html#ความสนใจหลก",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "ความสนใจหลัก",
+    "text": "ความสนใจหลัก\n\n\n01 Prevention and longevity health ค้นหาโรคให้เร็วและช่วยให้คนมีสุขภาพดีได้นานขึ้น ตั้งแต่การตรวจสุขภาพ การฉีดวัคซีน ไปจนถึงการคัดกรองวัณโรคเชิงรุกร่วมกับหน่วยงานสาธารณสุข\n\n\n02 Machine learning and AI development พัฒนาแบบจำลองและเครื่องมือที่ช่วยงานทางคลินิก ทั้ง clinical decision support และระบบอัตโนมัติที่ลดงานซ้ำซ้อนของบุคลากร\n\n\n03 Sustainable business development การพยากรณ์ทางธุรกิจ มาตรฐานและธรรมาภิบาลข้อมูลสุขภาพ เพื่อให้บริการสุขภาพเติบโต วางแผนล่วงหน้าได้ และรักษาความไว้วางใจของผู้ป่วย\n\n\nProgramming languages: R, Python"
+  },
+  {
+    "objectID": "th/about.html#เสนทางและประสบการณ",
+    "href": "th/about.html#เสนทางและประสบการณ",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "เส้นทางและประสบการณ์",
+    "text": "เส้นทางและประสบการณ์\n\n\n2025 – ปัจจุบัน\n\nMaster of Health Data Analytics · Monash University, Melbourne\nAustralia for ASEAN Scholarship\n\nเรียน machine learning และ time series forecasting ด้วย R และ Python แข่งขันในชั้นเรียน 8 รายการ ได้อันดับ 5 จาก 340 ในการพยากรณ์ราคาหุ้น Google และอันดับ 27 จาก 285 ทีมในแบบจำลองทำนายการเสียชีวิตใน ICU (ดูผลงาน)\nได้รับ Certified Health Informatician Australasia (CHIA) จาก Australasian Institute of Digital Health ปี 2026\nสมาชิก Alliance for Digital Health at Monash (ADAM) ตั้งแต่ปี 2025\nทำงานที่ Monash Disability Support Services and E-exam department ตั้งแต่เดือนมิถุนายน 2025\n\n\n\n\n2022 – 2025\n\nGeneral Practitioner · Faculty of Medicine Vajira Hospital, Navamindradhiraj University, Bangkok\nนอกจากงานตรวจรักษา ได้ริเริ่มโครงการด้านข้อมูลและนวัตกรรมที่ช่วยให้บริการปลอดภัยขึ้น มีประสิทธิภาพขึ้น และเข้าถึงคนได้มากขึ้น\n\nตรวจสุขภาพเชิงรุก: ผู้จัดการโครงการตรวจสุขภาพนอกสถานที่ให้บริษัท และหน่วยของ Vajira Hospital ในโครงการ One Million free health check-up ของ Bangkok Metropolitan Administration (BMA) ในพื้นที่ Dusit and District 4 zone ราว 33,000 ราย บริการเติบโตจาก 1,054 รายในปี 2021 เป็น 8,526 รายในแปดเดือนแรกของปี 2023 (ดูผลงาน)\nClinical decision support: ระบบช่วยร่างรายงานผลตรวจสุขภาพตามแนวทางเวชปฏิบัติในแอป Vajira at Home ให้แพทย์ตรวจและอนุมัติ ได้รับ Innowhale Award (ดูผลงาน)\nTB VFind: Chief of Innovation ใช้ข้อมูลของโรงพยาบาลชี้พื้นที่เสี่ยง แล้วคัดกรองวัณโรคเชิงรุกร่วมกับทีม BMA คัดกรอง 1,978 ราย พบผู้สงสัยวัณโรค 101 ราย และส่งต่อการรักษาทุกราย ได้รางวัลรองชนะเลิศอันดับ 1, 1st V-Innovation Challenge (ดูผลงาน)\nRobotic process automation: นำ UiPath มาใช้กับการฉีดวัคซีนนักศึกษา 1,200 คนต่อปี ลดเวลาบันทึกข้อมูลต่อคนได้มากกว่าครึ่ง (ดูผลงาน)\nสมาชิกทีม PDPA officer, ผู้ช่วยเลขานุการทีมพัฒนา Hospital Information System, และปรับกระบวนการ Health Check-up Clinic ด้วย LEAN\n\n\n\n\n2021 – 2022 · จุดเปลี่ยน\n\nMedical Intern · Makarak Hospital, Kanchanaburi\n300-bed government hospital, during COVID-19\nปีที่ได้เห็นว่าระบบข้อมูลที่แยกส่วนและเชื่อมต่อกันไม่ได้ทำให้ระบบสุขภาพล้มเหลวได้อย่างไร จึงเริ่มเรียนรู้ทักษะด้านข้อมูลเพื่อเตรียมรับปัญหาสุขภาพในอนาคต เช่น สังคมสูงวัยและการระบาดของวัณโรค\n\nปฏิบัติงานครบทุกแผนก และเป็นสมาชิกหน่วยเฝ้าระวัง COVID-19 ในชุมชน\n\n\n\n\n2015 – 2021\n\nDoctor of Medicine · Faculty of Medicine Vajira Hospital, Navamindradhiraj University\n\n2020: ประธานรุ่นนักศึกษาแพทย์ปีสุดท้าย ดูแลการฉีดวัคซีน COVID-19 ให้นักศึกษาแพทย์ทุกคน และผลักดันให้นักศึกษาแพทย์หญิงสวมกางเกงได้ ซึ่งปลอดภัยกว่าระหว่างการทำ CPR\n2018: ริเริ่มและนำทีม 4 คน ชนะ White Paper and Video Competition ที่ EAMSC 2018, Kathmandu หัวข้อการป้องกันไวรัสตับอักเสบบีจากแม่สู่ลูก (ดูผลงาน)\n2015 – 2019: อาสาสมัครด้านสุขภาพชุมชนและการศึกษาเด็กกับ Vajira Volunteer Club"
+  },
+  {
+    "objectID": "th/about.html#ใบรบรอง",
+    "href": "th/about.html#ใบรบรอง",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "ใบรับรอง",
+    "text": "ใบรับรอง\n\n\nCertified Health Informatician Australasia (CHIA), AIDH 2026\nMember, Alliance for Digital Health at Monash (ADAM) 2025\nPDPA for Government Officers 2024\nGoogle Data Analytics Professional Certificate 2023\nFHIR® e-Learning, Standards and Interoperability Lab Thailand 2023\nThai Medical Licence 2021"
+  },
+  {
+    "objectID": "th/about.html#รางวล",
+    "href": "th/about.html#รางวล",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "รางวัล",
+    "text": "รางวัล\n\n\nAustralia for ASEAN Scholarship 2024\nFirst runner-up, 1st V-Innovation Challenge, Faculty of Medicine Vajira Hospital 2024\nInnowhale Award, Health Promotion Accelerator, Thai Health Promotion Foundation 2022\nWinner, EAMSC White Paper and Video Competition, Kathmandu 2018\nRoyal Award for volunteer dedication 2015"
+  },
+  {
+    "objectID": "th/about.html#กจกรรม",
+    "href": "th/about.html#กจกรรม",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "กิจกรรม",
+    "text": "กิจกรรม\n\nBrazilian jiu-jitsu Surfing Hiking"
+  },
+  {
+    "objectID": "th/about.html#พรอมรวมงาน",
+    "href": "th/about.html#พรอมรวมงาน",
+    "title": "นุตชาติ ธีรสรเดช (Yoky Treerasoradaj)",
+    "section": "พร้อมร่วมงาน",
+    "text": "พร้อมร่วมงาน\nยินดีพูดคุยกับผู้ที่ทำงานด้านธุรกิจ เทคโนโลยี และการลงทุน ที่อยากสร้างระบบสุขภาพที่ดีขึ้น ในสองปีข้างหน้ามีแผนจะ\n\nสร้างธุรกิจ health-tech\nตรวจรักษาผู้ป่วยต่อเนื่องสัปดาห์ละหนึ่งถึงสองวัน\nสนับสนุนทีมผู้บริหาร Vajira Hospital ด้านการวิเคราะห์ข้อมูลสุขภาพ\nศึกษาต่อระดับ PhD ด้าน precision medicine\n\n\n\n Certified Health Informatician Australasia (CHIA)Australasian Institute of Digital Health, 2026\n\n\nอีเมล: tnutachat@gmail.com\nLinkedIn: linkedin.com/in/tnutachat\nที่อยู่ปัจจุบัน: Melbourne VIC, Australia"
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html",
+    "href": "projects/tb-tracking-dss/index.html",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "",
+    "text": "Programme TB VFind, part of the “Dusit Model” for ending TB in the community\n\n\nMy role Chief of Innovation: designed the data collection, the dashboard and the tracking workflow\n\n\nWhere Vajira Hospital and communities in Dusit and neighbouring Bangkok districts\n\n\nPartners Bangkok Metropolitan Administration (BMA) health department and health centres; Fujifilm Thailand (portable X-ray)\n\n\nUsers The hospital TB clinic and public health nurses\n\n\nTools Google Forms, Google Sheets, a BI dashboard, ICD-10 coding, R for analysis"
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#why-it-matters",
+    "href": "projects/tb-tracking-dss/index.html#why-it-matters",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Why it matters",
+    "text": "Why it matters\nTuberculosis is curable, but it still spreads quietly in Bangkok. Bangkok reports more TB cases than any other province in Thailand, and many people carry the disease for months before they feel sick enough to see a doctor. By then, they may have passed it on to their family, neighbours and co-workers.\nWaiting for patients to walk into a clinic finds TB late. Active case finding turns that around: the health team goes to the people most at risk, screens them with a chest X-ray and starts care early. The hard part is knowing where to go. That is a data problem, and it’s the part I worked on."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#using-hospital-data-to-decide-where-to-screen",
+    "href": "projects/tb-tracking-dss/index.html#using-hospital-data-to-decide-where-to-screen",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Using hospital data to decide where to screen",
+    "text": "Using hospital data to decide where to screen\nEvery new TB patient at Vajira Hospital already has an address in the hospital record. On its own that’s just a field in a form. Put together, every three months, it becomes a map of where TB is active right now.\n\n\nThe TB VFind loop: collect new TB cases, map hotspots, screen with BMA teams, refer and track, then collect again\n\n\n\n\n\n\nEvery\n3 months\n1 · Collectnew TB cases and addresses\n2 · Maphotspots on the dashboard\n3 · Screenwith BMA teams, on site\n4 · Refer, trackto the nearest BMA service\n\n\n\nCollect. Every three months, we pull the new TB cases from the hospital record, with the district and street of each patient’s home.\nMap. The BI dashboard shows where new cases are clustering. Those hotspots are where the next round of screening goes.\nScreen. Together with BMA public health teams, we go to the hotspot communities with a portable X-ray machine. Each person answers a short, structured set of risk questions and has a chest X-ray on the spot.\nRefer and track. Anyone with suspected TB is referred to a named service, usually the BMA health centre or hospital closest to home, and the team follows them up there.\n\nThen the loop starts again with fresh data, so the screening keeps moving to where it is needed most."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#turning-free-text-into-data-we-can-use",
+    "href": "projects/tb-tracking-dss/index.html#turning-free-text-into-data-we-can-use",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Turning free text into data we can use",
+    "text": "Turning free text into data we can use\nBefore TB VFind, TB history was written as free text in the hospital information system. It was readable by a doctor, but impossible to count, compare or map. I redesigned the collection so each answer became a structured field from the start.\n\n\n1 Structured form. A TB VFind form in Google Forms replaces free-text notes: contact history, risk groups, symptoms, smoking, chronic disease, X-ray result.\n\n\n2 One shared sheet. Answers land in Google Sheets, where ICD-10 codes, risk group and incidence are calculated automatically.\n\n\n3 Live dashboard. A BI dashboard shows X-ray results, risk groups, referrals and hotspots, filtered by date, district and insurance scheme.\n\n\n4 Shared with partners. Clean, coded data can be shared with BMA services and exported for the national TB programme, instead of re-typed.\n\n\nWith the data structured and coded from the start, our team found the whole process about twice as fast: no re-typing, no manual counting, and the dashboard updates itself.\n\n\n\n\nThe screening dashboard: chest X-ray results, X-ray findings among the abnormal films, and where each person was referred.\n\n\n\n\n\nThe risk dashboard: insurance scheme, sex, contact type, TB risk groups, metabolic risk, symptoms and smoking history.\n\n\n\nBoth screenshots are from August 2024, part-way through the first year. Patient lists and the case map are left out to protect privacy."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#working-as-one-team-across-bangkok",
+    "href": "projects/tb-tracking-dss/index.html#working-as-one-team-across-bangkok",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Working as one team across Bangkok",
+    "text": "Working as one team across Bangkok\nTB doesn’t stop at a hospital’s front door, so neither could the project. It only works because people inside and outside the hospital share the same data and the same goal.\n\n\nInside Vajira Hospital\n\nPulmonary medicine and the TB clinic: clinical lead and diagnosis\nVajira Wisdom Centre: the BI dashboard\nThe ARI clinic: further tests for people referred to the hospital\n\n\n\nBangkok Metropolitan Administration\n\nBMA health department: planning where and when to screen\nBMA public health centres and their nurses: community screening and follow-up close to home\nBMA hospitals, such as Klang Hospital: further tests and care\n\n\n\nOutside partners\n\nFujifilm Thailand: the portable X-ray system used in the community (news release, March 2024)\nNational TB programme: case reporting and standards\n\n\n\nThe referral is the key moment. Every one of the 101 people with suspected TB was referred to a named service: 76 to BMA health centres and other public health services near home, and 25 to Vajira Hospital’s ARI clinic. Because the BMA network covers primary care across the city, patients can be followed up where they live, which is what keeps them on treatment."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#what-the-data-shows",
+    "href": "projects/tb-tracking-dss/index.html#what-the-data-shows",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "What the data shows",
+    "text": "What the data shows\n\n\nFrom screening to care · March 2024 to July 2026\n\nFrom screening to care: 1,978 screened, 244 abnormal X-rays, 101 suspected TB, 101 referred\nScreened in the community\nchest X-ray and risk questions\nScreened in the community: 1,978\n1,978\nAbnormal chest X-ray\n12% of those screened\nAbnormal chest X-ray: 244\n244\nSuspected TB\n1 in 20 people screened\nSuspected TB: 101\n101\nReferred to a named service\n76 to BMA services, 25 to Vajira\nReferred to a named service: 101\n101\n\n\n\nBetween March 2024 and July 2026, the teams screened 1,978 people. One in eight had an abnormal chest X-ray, and 101 people, about 1 in 20 of everyone screened, had an X-ray that looked like TB.\n\n\nThe 101 people with suspected TB · how many felt unwell\n\nOf 101 people with suspected TB, 57 had no symptoms and 44 had symptoms\nNo symptoms: 57 of 101\nSome symptoms: 44 of 101\n57 · no symptoms\n44 · cough, fever or breathless\n\n\n\nThis is the strongest case for going out to find TB. 57 of the 101 people with suspected TB had no symptoms. If we had only screened people who said they had a cough, more than half of them would have been missed, and they would have kept living, working and sharing rooms with others without knowing.\n\n\nSuspected TB per 100 people screened · by year\n\nSuspected TB per 100 people screened: 6.2 in 2024, 5.1 in 2025, 2.5 in January to July 2026\n\n0%\n\n2%\n\n4%\n\n6%\n\n8%\n2024 (Mar – Dec): 47 suspected TB among 752 screened (6.2%)\n\n\n6.2%\n2024 · Mar – Dec\n47 of 752 screened\n2025 (full year): 46 suspected TB among 905 screened (5.1%)\n\n\n5.1%\n2025 · full year\n46 of 905 screened\n2026 (Jan – Jul): 8 suspected TB among 320 screened (2.5%)\n\n\n2.5%\n2026 · Jan – Jul\n8 of 320 screened\n\n\n\nOver three rounds of the loop, the share of people with suspected TB fell from 6.2% of those screened in 2024 to 5.1% in 2025 and 2.5% in the first seven months of 2026. This is what we hoped to see as cases in the hotspots are found and treated. It isn’t proof on its own: the communities screened change from round to round, and 2026 is a part year. That is why the next step is better, standardised data.\nOf the 19 suspected cases with a final diagnosis recorded back in our sheet so far, 8 were confirmed active TB. The rest of the follow-up happens in BMA services, which is exactly why shared data matters."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#why-prevention-is-worth-it",
+    "href": "projects/tb-tracking-dss/index.html#why-prevention-is-worth-it",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Why prevention is worth it",
+    "text": "Why prevention is worth it\nFinding one person with TB early protects more than one person. The WHO estimates that someone with untreated active TB can infect 10 to 15 other people in a year. Every early case stops a chain of new ones, and treating TB early is simpler, shorter and kinder than treating it late.\nIt pays off for the health system too. Japan is a good example. In 1955, TB took up 27.4% of the country’s medical spending. After decades of sustained TB control, it had fallen to 0.08% by 2011. Our team estimates that scaling a data-driven approach like TB VFind could save Thailand around ฿70 million a year in TB control costs. That is our projection, not a measured result.\n\nBetter quality of care\n\n\nTimely\nTB is found before symptoms start, in 56% of the suspected cases.\n\n\nEquitable\nScreening goes to crowded communities, migrants and people without insurance, who rarely come to a hospital first.\n\n\nPatient-centred\nX-rays happen in the community, and follow-up is at the health centre closest to home.\n\n\nEffective\nHotspot data sends screening to the places with the most new cases.\n\n\nEfficient\nStructured data and automatic coding make reporting about twice as fast, with no re-typing.\n\n\nSafe\nEvery suspected case has a named referral and is tracked, so fewer people are lost between services."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#whats-next",
+    "href": "projects/tb-tracking-dss/index.html#whats-next",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "What’s next",
+    "text": "What’s next\n\nData standardisation. Agree on shared data standards for TB tracking across hospitals and BMA services, so results can be compared fairly over time.\nA custom application. Move from Google Workspace to a long-term, purpose-built system.\nWider collaboration. Work with digital-economy partners, including telecom companies, to reach more communities.\nA health data centre. Lay the groundwork for a standardised health data centre that supports future research and ASEAN-wide collaboration.\n\nTB VFind supports Thailand’s operational plan to end TB and the global goal to end the TB epidemic by 2030."
+  },
+  {
+    "objectID": "projects/tb-tracking-dss/index.html#recognition",
+    "href": "projects/tb-tracking-dss/index.html#recognition",
+    "title": "TB VFind: Using Data to Find Tuberculosis Before It Spreads",
+    "section": "Recognition",
+    "text": "Recognition\n\nFirst runner-up, Process and Service Innovation, 1st V-Innovation Challenge, Faculty of Medicine Vajira Hospital, Navamindradhiraj University (5 November 2024)\n\n\n\n\nReceiving the first runner-up award for TB VFind at the 1st V-Innovation Challenge.\n\n\n\n  \n\nBuilt by the Vajira Alumni Team, founded by Dr Pipu Tavornshevin. All figures on this page are totals from the TB VFind screening records; no patient details are shown."
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html",
+    "href": "projects/monash-kaggle-journey/index.html",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "",
+    "text": "Years 2025 – 2026\n\n\nWhere Monash University, Melbourne\n\n\nCompetitions 8 so far: 5 solo, 3 in a team of four\n\n\nTasks Regression, classification, image recognition, recommender systems, time series forecasting\n\n\nModels Moving averages and RSI, linear and logistic regression, decision trees, neural networks, CNNs, RNNs, transformers\n\n\nTools R in 2025, Python in 2026"
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html#the-climb",
+    "href": "projects/monash-kaggle-journey/index.html#the-climb",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "The climb",
+    "text": "The climb\nEach point is one competition, oldest first. The height shows the share of the other entrants I finished ahead of, so higher is better.\n\n\n\nShare of other teams I finished ahead of, in each Monash class competition\nHappiness (2025 S2): 90 of 313, ahead of 71%; Anxiety (2025 S2): 153 of 301, ahead of 49%; ICU death (2026 S1): 27 of 285, ahead of 91%; Recommender (2026 S1): 10 of 92, ahead of 90%; Google stock (2026 S2): 5 of 340, ahead of 99%; House price (2026 S2): 3 of 18, ahead of 88%; Images (2026 S2): 3 of 18, ahead of 88%; Electricity (2026 S2): 2 of 8, ahead of 86%\n\n0%\n\n25%\n\n50%\n\n75%\n\n100%\n2025 S2\n\n2026 S1\n\n2026 S2\n\nHappiness\nRegression: predict happiness from survey data (2025 S2, solo): 90 of 313, ahead of 71% of teams\n90 of 313\nAnxiety\nClassification: predict 'always anxious' (2025 S2, solo): 153 of 301, ahead of 49% of teams\n153 of 301\nICU death\nPredicting the probability of death in an ICU (2026 S1, solo): 27 of 285, ahead of 91% of teams\n27 of 285\nRecommender\nRecommender system challenge (2026 S1, solo): 10 of 92, ahead of 90% of teams\nGoogle stock\n\nForecast Google's closing stock price on 5 October 2026 (2026 S2, solo): 5 of 340, ahead of 99% of teams\n5 of 340\nHouse price\nHouse price prediction (2026 S2, team): 3 of 18, ahead of 88% of teams\nImages\nImage classification (2026 S2, team): 3 of 18, ahead of 88% of teams\nElectricity\nElectricity demand prediction (2026 S2, team): 2 of 8, ahead of 86% of teams\n2 of 8\n\nSoloTeam of four (built on my model)Hover a point for the details\n\nMy second competition was my low point: I finished in the middle of the leaderboard. From the next semester on, every result landed ahead of 86 to 99% of the field, solo and in a team."
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html#what-changed-consistency",
+    "href": "projects/monash-kaggle-journey/index.html#what-changed-consistency",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "What changed: consistency",
+    "text": "What changed: consistency\nThe two 2025 competitions came in Statistical Modelling, my first mathematics unit in a decade. I tried almost every method I had learned, and the results were average. Looking back, I had rushed past the most important part: exploring the data and understanding it before modelling. Tree-based models with pruning, such as XGBoost, were completely new to me.\nSo I changed how I work. Before each new competition I studied how experienced practitioners approached similar problems, on Kaggle, Medium, Reddit and other forums. I used AI coding assistants such as Claude to test ideas faster, and I kept looking for another way to improve the score after the obvious ones ran out.\n\n\n3 semesters in a row with at least two competitions\n\n\n6 of 6 results since 2026 ahead of at least 85% of the field\n\n\n3 of 3 team competitions where the team used my model\n\n\nThat is the strength I’m proudest of: consistency. I don’t give up when a result is disappointing; I go back, learn what I missed and come again. This is only the first step of my machine learning career, and I’d love to work with people who bring the same energy."
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html#spotlight-forecasting-googles-stock-price",
+    "href": "projects/monash-kaggle-journey/index.html#spotlight-forecasting-googles-stock-price",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "Spotlight: forecasting Google’s stock price",
+    "text": "Spotlight: forecasting Google’s stock price\nMy Applied Forecasting class ran a competition to forecast Google’s closing stock price on 5 October 2026. I made my forecast on 3 August, about two months ahead, and placed 5th out of 340.\n\n\nUS$345.00 my forecast, made on 3 August\n\n\nUS$343.83 actual closing price, 5 October\n\n\n0.3% forecast error\n\n\nI combined two technical-analysis tools: moving averages (MA), which smooth out day-to-day noise to show the trend, and the relative strength index (RSI), which shows when a stock has been bought or sold too heavily and is likely to turn.\nA stock chart is more than a line. It records the greed and fear of millions of investors, and the uncertainty they live with. My result reflects that understanding of what sits behind the graph, not just the trend line. Health services face the same problem when they plan beds, staff and budgets under uncertainty, and that’s the kind of forecasting I want to bring to hospitals."
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html#every-competition",
+    "href": "projects/monash-kaggle-journey/index.html#every-competition",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "Every competition",
+    "text": "Every competition\n\n\n\n\n\n\n\n\n\n\n\nSemester\nCompetition\nTask\nMy role\nRank\nAhead of\n\n\n\n\n2025 S2\nHappiness from survey data (Statistical Modelling)\nRegression\nSolo\n90 / 313\n72%\n\n\n2025 S2\n“Always anxious” (Statistical Modelling)\nClassification\nSolo\n153 / 301\n49%\n\n\n2026 S1\nDeath in an ICU\nClassification\nSolo\n27 / 285\n91%\n\n\n2026 S1\nRecommender system (FIT5212)\nRecommender\nSolo\n10 / 92\n90%\n\n\n2026 S2\nGoogle stock price (Applied Forecasting)\nForecasting\nSolo\n5 / 340\n99%\n\n\n2026 S2\nHouse prices (ETC3555/5555)\nRegression\nTeam · my base model\n3 / 18\n88%\n\n\n2026 S2\nImage classification (ETC3555/5555)\nClassification\nTeam · my model\n3 / 18\n88%\n\n\n2026 S2\nElectricity demand (ETC3555/5555)\nForecasting\nTeam · my model\n2 / 8\n86%\n\n\n\nTeam · my model: the team submitted the model I built. Team · my base model: a teammate trained my model further before submitting. I used R in 2025 and Python in 2026.\n“Ahead of” is the share of the other entrants who finished below me: (entrants − rank) ÷ (entrants − 1). Results are from the class leaderboards on my Kaggle profile. The competitions are private, and unit rules don’t allow the code to be shared."
+  },
+  {
+    "objectID": "projects/monash-kaggle-journey/index.html#insight",
+    "href": "projects/monash-kaggle-journey/index.html#insight",
+    "title": "From Mid-Table to the Top 2%: My Competitions at Monash",
+    "section": "Insight",
+    "text": "Insight\nEight competitions looked like eight different problems: stock prices, electricity demand, house prices, images, ICU patients. Underneath, every model had the same core. It learns patterns from past data, tests itself on data it hasn’t seen, and makes a prediction we can check. Change the data, and the same skills work in almost any sector.\nThat is what excites me about bringing machine learning back to medicine:\n\nPredicting disease before it starts. The model that ranked ICU patients by risk of death can, with the right data, forecast who is likely to develop diabetes, heart disease or kidney failure, years before it happens. Health services could then step in with prevention instead of treatment.\nLearning more from medical data. Models can find patterns across thousands of patients that no single doctor sees, giving us new insight into what drives disease and which care leads to the best outcome.\nGenomic medicine. As genetic testing becomes routine, machine learning can help identify the people at high risk of cancer, so we can screen them earlier, or prevent the cancer altogether.\nBeyond health care. The same tools can help with problems like global warming, for example searching plant data for species that absorb far more carbon dioxide than others.\n\nThe more good data we have, the more of these questions we can answer. That’s the work I want to do."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html",
+    "href": "projects/health-check-campaign/index.html",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "",
+    "text": "Programmes Off-site health check-ups for companies, and Vajira Hospital’s unit in Bangkok’s One Million free health check-up caravan\n\n\nMy role Project manager: workflow design, shared digital workspace, dashboard and partner coordination\n\n\nWhere Vajira Hospital Check Up Center, workplaces across Bangkok, and communities in the Dusit and District 4 zone\n\n\nPartners Bangkok Metropolitan Administration (BMA) Medical Service Department, Health Department and Dusit District Office; client companies\n\n\nBuilt on Clinical decision support for check-up reports, LEAN patient flow, a BI dashboard\n\n\nYears 2022 – 2025"
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#the-idea-one-system-two-missions",
+    "href": "projects/health-check-campaign/index.html#the-idea-one-system-two-missions",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "The idea: one system, two missions",
+    "text": "The idea: one system, two missions\nMost chronic diseases, such as diabetes, high blood pressure and high cholesterol, can be found years before they cause harm. A health check-up is the cheapest moment to catch them. The problem is scale: every check-up needs a doctor to read the results and write advice, and doctor time runs out long before demand does.\nI managed two programmes that ran on the same answer to that problem.\n\n\nMission 1 · Business\nOff-site check-ups for companies. The hospital takes its check-up service to the workplace. One agreement with a company brings in hundreds of employees at once, and the income helps the hospital fund its other services.\n\n\nMission 2 · Public health\nFree check-ups for the community. Bangkok’s One Million Health Check-up campaign brings free screening to people who rarely see a doctor. Vajira Hospital ran a mobile unit as part of it, covering the Dusit and District 4 zone.\n\n\nBoth depended on the same three things: a fast, well-organised check-up day, reports that don’t wait for a doctor’s free hour, and partners who bring the people."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#how-the-workflow-fits-together",
+    "href": "projects/health-check-campaign/index.html#how-the-workflow-fits-together",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "How the workflow fits together",
+    "text": "How the workflow fits together\n\n\n1 Plan with the partner. A company’s HR team or a district office agrees the date, the place and who comes. Everyone shares one digital workspace, so the plan, the lists and the updates sit in one place.\n\n\n2 Check-up day. A LEAN flow takes each person through registration, vital signs, blood tests and imaging in a fixed order, with no back-tracking and fewer queues.\n\n\n3 Decision support drafts the report. Rules from Thai and international guidelines suggest the report and next steps. A doctor checks, edits and approves every one.\n\n\n4 Results and follow-up. People get plain-language results with a clear next step. The dashboard shows the team how many were seen, what’s pending and what needs follow-up.\n\n\nThe decision support system is the engine. Without it, two doctors writing more than 60 reports a day by hand set the ceiling. With it, the same doctors approve drafted reports, and growth is limited by how many partners we can bring in, not by how fast we can type. The full story of that system is on the clinical decision support page."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#results-growth-without-lowering-the-standard",
+    "href": "projects/health-check-campaign/index.html#results-growth-without-lowering-the-standard",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "Results: growth without lowering the standard",
+    "text": "Results: growth without lowering the standard\n\n\n\nCheck-ups per year · 1,054 in 2021, 8,526 in the first eight months of 2023\n\nHealth check-ups per year, by how the report was produced\n\n0\n\n2,500\n\n5,000\n\n7,500\n\n10,000\n2021 (full year): 1,054 check-ups; 1,054 reported by hand, 0 with decision support\n\n\n\n1,054\n2021\nfull year\n2022 (full year): 4,373 check-ups; 943 reported by hand, 3,430 with decision support\n\n\n\n\n4,373\n2022\nfull year\n2023 (Jan – Aug only): 8,526 check-ups; 300 reported by hand, 8,226 with decision support\n\n\n\n\n8,526\n2023\nJan – Aug only\n\nReport drafted with decision support, approved by a doctorReport written by hand\n\n\nCheck-ups grew from 1,054 in 2021 to 4,373 in 2022, and to 8,526 in only the first eight months of 2023. Almost all of that growth, 8,226 check-ups, came from off-site check-ups for companies. Every report was still approved by a doctor and based on clinical guidelines."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#taking-it-to-the-community-the-one-million-campaign",
+    "href": "projects/health-check-campaign/index.html#taking-it-to-the-community-the-one-million-campaign",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "Taking it to the community: the One Million campaign",
+    "text": "Taking it to the community: the One Million campaign\nIn December 2023 the BMA launched a campaign to give at least one million Bangkok residents a free health check-up, with hospitals, medical schools and district offices across all 50 districts (Nation Thailand). By March 2026 it had passed 1,002,629 people (BMA news).\nVajira Hospital joined with a mobile check-up caravan for the Dusit and District 4 zone. Our team brought the same workflow, the same digital workspace and the same report system that we had built for companies into the community. Our unit carried out around 33,000 check-ups, out of roughly 300,000 in the zone.\nThe kick-off, 23 December 2024. The caravan opened at the Army Transportation Officers’ Association in Dusit District, which offered the venue. The first people we screened were motorcycle taxi riders, who spend all day in traffic, strong sun and PM2.5 dust, together with staff of the Dusit District Office. It was a joint effort with the BMA Medical Service Department, the BMA Health Department and the Dusit District Office. Bangkok’s Deputy Governor, the Dusit District Director, and Vajira’s Dean and Hospital Director came to support the team on the day (Faculty of Medicine Vajira Hospital).\n\n\n\n\nThe caravan set up in the hall at the Army Transportation Officers’ Association, Dusit District.\n\n\n\n\n\nScreening desks on the day. The faces of people being screened are blurred.\n\n\n\n\n\nBMA and Vajira leaders visit the team during the kick-off.\n\n\n\n\n\nThe Vajira Check Up Center team."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#working-across-organisations",
+    "href": "projects/health-check-campaign/index.html#working-across-organisations",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "Working across organisations",
+    "text": "Working across organisations\n\n\nVajira Hospital\n\nCheck Up Center: doctors, nurses and staff on every check-up day\nSoftware engineers: the patient app and decision support\nFaculty and hospital leadership: backing to scale up\n\n\n\nBangkok Metropolitan Administration\n\nMedical Service Department and Health Department: the One Million campaign\nDusit District Office: reaching local groups and organising the venue\n\n\n\nCompanies and community hosts\n\nClient companies: bringing their whole workforce, with data sharing and data processing agreements signed\nCommunity hosts, such as the Army Transportation Department: venues close to where people work\n\n\n\nWhat I learned is that partnerships are the real channel. One conversation with an HR manager or a district director can reach more people than months of waiting for walk-ins."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#why-it-matters",
+    "href": "projects/health-check-campaign/index.html#why-it-matters",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "Why it matters",
+    "text": "Why it matters\n\n\nTimely\nChronic disease is found at a check-up, years before it becomes a stroke or a heart attack.\n\n\nEquitable\nFree screening goes to motorcycle taxi riders and other workers who can’t easily take a day off to see a doctor.\n\n\nEfficient\nDoctors approve drafted reports instead of writing each one, so more people can be seen without more doctors."
+  },
+  {
+    "objectID": "projects/health-check-campaign/index.html#building-something-bigger",
+    "href": "projects/health-check-campaign/index.html#building-something-bigger",
+    "title": "Scaling Health Check-ups With Data and Partners",
+    "section": "Building something bigger",
+    "text": "Building something bigger\nThe check-up programmes, the TB VFind screening loop and the decision support system all point the same way: prevention works best when data, clinical rules and partners are joined up.\n\nOne record across services. Today a person may be screened by a caravan, a company check-up and a health centre, and each keeps its own record. Linking them would end repeated tests and show each person’s health over time.\nFollow-up close to home. Abnormal results could go straight to the BMA health centre nearest the person’s home, the way TB VFind already refers suspected TB cases.\nPopulation health insight. With consent and proper governance, the combined data could show each district’s health risks and guide where to screen next.\nLongevity and precision prevention. The same model can grow into longevity check-ups, adding genetic and fitness testing.\n\nThe 33,000 figure is our unit’s total; the citywide total comes from the BMA."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html",
+    "href": "projects/clinical-decision-support-app/index.html",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "",
+    "text": "Product Vajira at Home patient app, with a report page for doctors\n\n\nMy role Clinical lead: turned the guidelines into report logic\n\n\nWhere Vajira Hospital, Navamindradhiraj University, Bangkok\n\n\nTeam Clinicians and software engineers\n\n\nGuidelines Thai clinical practice guidelines; ESC guidelines for cardiovascular risk\n\n\nStatus In use since 2022"
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#the-opportunity",
+    "href": "projects/clinical-decision-support-app/index.html#the-opportunity",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "The opportunity",
+    "text": "The opportunity\nDemand for health check-ups was growing faster than doctors could keep up. Two doctors were each reporting more than 60 check-ups a day by hand: reading every lab result and writing every line of advice. Companies wanted to bring their whole workforce for check-ups, but doctor time capped how many the hospital could accept.\nPatients had a problem too. Most health apps in Thailand simply flag results as normal or abnormal. A small, harmless abnormality shows up in red with no explanation, which can cause real anxiety, while the results that matter most don’t come with a clear next step."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#what-we-built",
+    "href": "projects/clinical-decision-support-app/index.html#what-we-built",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "What we built",
+    "text": "What we built\nA decision support system behind the hospital’s patient app, Vajira at Home. It brings together everything from the check-up, applies the clinical guidelines, and drafts a personal report for the doctor to approve.\n\n\n1 Collect. Lifestyle and history from the e-assessment, lab results from the lab system, and imaging.\n\n\n2 Apply the guidelines. Rules from the Thai clinical practice guidelines and the ESC guidelines suggest the report and the next steps. Healthy results pass straight through.\n\n\n3 Doctor approves. The suggestion appears on the doctor’s page. The doctor checks it, edits if needed and approves.\n\n\n4 Patient reads it. The report arrives in the app with plain-language explanations of every result.\n\n\n\nThree examples\n\n\nPatient A\n60 years old, smoker, long-term constipation.\nSuggested\nColonoscopy screening, as the guideline recommends.\n\n\nPatient B\n30 years old, non-smoker, exercises fewer than 3 days a week, cholesterol 245 mg/dL, no medication.\nSuggested\nLifestyle changes, and a repeat cholesterol test in 1 to 3 months.\n\n\nPatient C\nSame as patient B, but cholesterol 350 mg/dL.\nSuggested\nStart a statin alongside lifestyle changes.\n\n\nEach suggestion goes to a doctor before the patient sees it. The system does the reading and the drafting; the doctor keeps the decision."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#the-workflow-before-and-after",
+    "href": "projects/clinical-decision-support-app/index.html#the-workflow-before-and-after",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "The workflow, before and after",
+    "text": "The workflow, before and after\n\n\nBefore · staff printed every result and doctors wrote every report by hand\n\nBefore: health check-up workflow with every report written by hand\n\n\nScreening\n\nCheck-up staff\n\n\nCashier\n\n\nLab technicians\n\n\nDoctors\n\n\nPharmacy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatient arrives\nfor a check-up\n\n\nOpen visit\n\n\nVital signs and\nlab assessment\n\n\nPay bill\n\n\nLab tests\n\n\nCheck and print\nevery result,\ndraft report\n!\n\n\nExamine, explain\nevery result,\nwrite advice\n!\n\n\nAbnormal:\nkey medication\norders\n!\n\n\nNormal:\ndone\n\n\nCheck out\nprescription\n\n\nPay bill\n\n\nCollect\nmedicines\n\n\nDone\n\n\n\n\nAfter · the system drafts each report from the guidelines, a doctor approves it, and patients read it in the app\n\nAfter: health check-up workflow with clinical decision support\n\n\nScreening\n\nCheck-up staff\n\n\nCashier\n\n\nLab technicians\n\n\n\nDecision\nsupport\n\n\nDoctors\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatient arrives\nfor a check-up\n\n\nOpen visit\n\n\nVital signs and\ne-assessment\n\n\nPay bill\n\n\nLab tests\nand imaging\n\n\nPhysical\nexamination\n\n\nCombine all the\ndata, suggest\nthe report\n⚙\n\n\nReview and\napprove report\n\n\nReport and plain\nadvice in the app\n⚙\n\n\nNormal:\ndone\n\n\nAbnormal: follow-\nup by telemedicine\n\n\n\n\nManual step\nBottleneck: doctor and staff time\nDecision support and the app\nStart / end"
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#results-more-patients-the-same-standard",
+    "href": "projects/clinical-decision-support-app/index.html#results-more-patients-the-same-standard",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "Results: more patients, the same standard",
+    "text": "Results: more patients, the same standard\n\n\n\nCheck-ups per year · 1,054 in 2021, 8,526 in the first eight months of 2023\n\nHealth check-ups per year, by how the report was produced\n\n0\n\n2,500\n\n5,000\n\n7,500\n\n10,000\n2021 (full year): 1,054 check-ups; 1,054 reported by hand, 0 with decision support\n\n\n\n1,054\n2021\nfull year\n2022 (full year): 4,373 check-ups; 943 reported by hand, 3,430 with decision support\n\n\n\n\n4,373\n2022\nfull year\n2023 (Jan – Aug only): 8,526 check-ups; 300 reported by hand, 8,226 with decision support\n\n\n\n\n8,526\n2023\nJan – Aug only\n\nReport drafted with decision support, approved by a doctorReport written by hand\n\n\nThe service grew from 1,054 check-ups in 2021 to 4,373 in 2022, and 8,526 in just the first eight months of 2023. Almost all of the growth came from off-site check-ups for companies, launched in 2022 and run with decision support.\n\n2023, month by month · volume swings up to 2,812 a month, while reports written by hand stay at 16 to 60\n\nHealth check-ups per month in 2023, by how the report was produced\n\n0\n\n1,000\n\n2,000\n\n3,000\nJan 2023: 675 check-ups; 29 reported by hand, 646 with decision support\n\n\n\n\n675\nJan\nFeb 2023: 1,300 check-ups; 40 reported by hand, 1,260 with decision support\n\n\n\n\n1,300\nFeb\nMar 2023: 929 check-ups; 19 reported by hand, 910 with decision support\n\n\n\n\n929\nMar\nApr 2023: 189 check-ups; 16 reported by hand, 173 with decision support\n\n\n\n\n189\nApr\nMay 2023: 644 check-ups; 53 reported by hand, 591 with decision support\n\n\n\n\n644\nMay\nJun 2023: 1,218 check-ups; 60 reported by hand, 1,158 with decision support\n\n\n\n\n1,218\nJun\nJul 2023: 759 check-ups; 54 reported by hand, 705 with decision support\n\n\n\n\n759\nJul\nAug 2023: 2,812 check-ups; 29 reported by hand, 2,783 with decision support\n\n\n\n\n2,812\nAug\n\nReport drafted with decision support, approved by a doctorReport written by hand\n\nThe doctors’ workload didn’t grow with the volume. In 2023 they wrote only 16 to 60 reports a month by hand, while the service handled up to 2,812 check-ups a month. Everything else arrived as a draft to check and approve.\n\nBusiest month · capacity grew 15-fold\n\nBusiest month before and after decision support\nBefore decision support\nNov 2021\nBefore decision support, busiest month Nov 2021: 191 check-ups\n191\nWith decision support\nDec 2022\nWith decision support, busiest month Dec 2022: 2,884 check-ups\n2,884\n\n\nNumbers are from hospital visit records for the Health Check-up Clinic and off-site company check-ups."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#who-the-customers-are",
+    "href": "projects/clinical-decision-support-app/index.html#who-the-customers-are",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "Who the customers are",
+    "text": "Who the customers are\n\n\n82% Millennials and Gen X: working-age adults\n\n\n62% women\n\n\n8,226 off-site check-ups for companies, Jan–Aug 2023\n\n\nMost customers are working-age adults who come through their employers. That makes this a business-to-business model: one agreement with a company brings in hundreds of check-ups at once. Figures are for January to August 2023; generation shares are based on the 7,995 people with a recorded birth year."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#growing-the-business-without-lowering-the-standard",
+    "href": "projects/clinical-decision-support-app/index.html#growing-the-business-without-lowering-the-standard",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "Growing the business without lowering the standard",
+    "text": "Growing the business without lowering the standard\nGood data makes the service more precise for each patient and more valuable for the hospital at the same time. Every check-up feeds the next one.\n\n\nThe cycle of innovation: collect data, give precise reports, grow the business, support research, then collect better data\n\n\n\n\n\n\nCycle of\ninnovation\n1 · Collectstructured data, every check-up\n2 · Personaliseprecise, guideline-based reports\n3 · Growmore companies, new services\n4 · Researchbetter evidence, better rules\n\n\n\nCollect. Every check-up adds structured lifestyle, lab and imaging data to the hospital record.\nPersonalise. The same data gives each patient a precise report and a clear next step, instead of a list of red flags.\nGrow. Doctor time stops being the limit, so the hospital can take on more companies. The reports also point to services each person actually needs, such as vaccinations, exercise programmes, nutrition advice and follow-up by telemedicine.\nResearch. With consent and proper governance, the growing dataset supports future health research, which in turn improves the rules.\n\n\nQuality and privacy safeguards\n\nA doctor approves every report before the patient sees it.\nThe logic follows published guidelines: the Thai clinical practice guidelines, and the ESC guidelines for cardiovascular risk.\nAll data stays in the hospital information system, and a data sharing agreement and a data processing agreement are signed with every client company."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#whats-next",
+    "href": "projects/clinical-decision-support-app/index.html#whats-next",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "What’s next",
+    "text": "What’s next\n\nLongevity check-ups. Adding genetic testing and VO2max testing, so the same model can serve preventive and longevity medicine.\nRebuilding the logic as code. I designed the clinical content; I’m now rewriting the rules as tested, reproducible code so they can be updated and shared with other hospitals.\nIn the real world. The system supported the One Million Health Check-up Campaign in the Dusit and District 4 zone, around 33,000 free check-ups."
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#recognition",
+    "href": "projects/clinical-decision-support-app/index.html#recognition",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "Recognition",
+    "text": "Recognition\n\nInnowhale Award, Health Promotion Accelerator, Thai Health Promotion Foundation (2022), for this project"
+  },
+  {
+    "objectID": "projects/clinical-decision-support-app/index.html#screenshots",
+    "href": "projects/clinical-decision-support-app/index.html#screenshots",
+    "title": "Clinical Decision Support That Grew a Check-up Service 8×",
+    "section": "Screenshots",
+    "text": "Screenshots\n\n\n\n\nThe Vajira at Home app home screen (Thai). The account name is blurred.\n\n\n\n\n\nLeft: the doctor’s summary report. Right: lab results, each with a plain-language explanation."
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "A first post. Delete or rewrite it whenever you like.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "Download CV (PDF) LinkedIn Email GitHub"
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About me",
+    "section": "Bio",
+    "text": "Bio\nI’m a physician with five years of clinical and health-system experience in Thailand, now studying a Master of Health Data Analytics at Monash University on an Australia for ASEAN Scholarship.\nMy turn towards data came in 2021, as an intern in a rural hospital during COVID-19. Poor data systems slowed down care, wore out staff and contributed to deaths that could have been prevented. Since then I’ve worked on three things good data can do for a health system: make care safer, give staff their time back, and cut wasted cost, such as repeating blood tests and chest X-rays every time a patient is referred.\nMy focus now is health and business forecasting: using time series and machine learning to show health services what demand, risk and cost are about to look like.\nLooking to collaborate? See Ready to connect."
+  },
+  {
+    "objectID": "about.html#my-journey-and-experience",
+    "href": "about.html#my-journey-and-experience",
+    "title": "About me",
+    "section": "My journey and experience",
+    "text": "My journey and experience\n\n\n\n2025 – present\n\nMaster of Health Data Analytics · Monash University, Melbourne\nAustralia for ASEAN Scholarship\nI returned to study with three goals: to gain strong data management and machine learning development skills, to build an international professional network, and to develop as a global citizen. I have achieved all three.\nExperience\n\nData and machine learning: machine learning, time series forecasting and semi-structured data analysis in R and Python. Eight class competitions, including 5th of 340 for forecasting Google’s closing stock price, 27th of 285 for an ICU mortality model, and 2nd for electricity demand forecasting with my team (results).\nCertified Health Informatician Australasia (CHIA), Australasian Institute of Digital Health (AIDH), 2026.\nMember, Alliance for Digital Health at Monash (ADAM) since 2025, Monash’s network for digital health research and innovation.\nMonash Disability Support Services and E-exam department: e-exam assistant and disability support since June 2025.\n\n\nMachine learning Forecasting R Python\n\n\n\n\n2022 – 2025\n\nGeneral Practitioner · Vajira Hospital, Navamindradhiraj University, Bangkok\nHealth data and digital systems portfolio\nAlongside clinical work, I built new skills and put them to use straight away. I earned the Google Data Analytics Professional Certificate, introduced new tools such as robotic process automation and decision support, and initiated projects that improved safety, efficiency and access to care.\nExperience\n\n2022 – 2025: project manager, health check-up outreach: off-site check-ups for companies, and Vajira Hospital’s unit in Bangkok’s One Million free health check-up campaign, around 33,000 check-ups in the Dusit and District 4 zone. Designed the workflow, shared digital workspace and BI dashboard. Check-ups grew from 1,054 in 2021 to 8,526 in the first eight months of 2023.\n2024: Chief of Innovation, TB VFind: used hospital data to guide active tuberculosis screening with Bangkok Metropolitan Administration teams. 1,978 people screened and 101 suspected cases referred to care. First runner-up, 1st V-Innovation Challenge.\n2024: member of the PDPA officer team. With the Vajira Informatics and Data Innovation Center, translated PDPA and AI-governance requirements into a patient data protection framework.\n2023: built clinical decision support for health check-up reports in the hospital mobile app, with clinicians and engineers.\n2023: assistant secretary, Hospital Information System development team.\n2023: Google Data Analytics Professional Certificate, FHIR e-learning, and membership of the Asia eHealth Information Network (AeHIN).\n2022: initiated data-assisted student vaccination with UiPath robotic process automation for 1,200 students a year, cutting staff time per student by more than half.\n2022: redesigned patient flow at the Health Check-up Clinic using LEAN.\n2022: head of the Health Promotion Accelerator Project, Thai Health Promotion Foundation (Innowhale Award).\n\n\nLEAN Workflow redesign RPA Project management Decision support BI dashboards SQL Google Sheets Preventive medicine\n\n\n\n\n2021 – 2022 · Turning point\n\nMedical Intern · Makarak Hospital, Kanchanaburi, Thailand\n300-bed government hospital, during COVID-19\nThis year showed me how poor data management can make a health system fail. Fragmented records and systems that could not share information delayed care, exhausted staff and harmed patients, and the cost fell on everyone. I saw that good data management could prevent much of this, so I began learning new skills to prepare for the health challenges ahead, such as Thailand’s hyper-aged society and tuberculosis outbreaks.\nExperience\n\nFull clinical rotation, including advanced cardiac life support, lumbar punctures and chest tube insertions.\nMember of the COVID-19 community surveillance unit, Kanchanaburi.\nCommunity screening and vaccination teams on off-service days.\n\n\nPublic health\n\n\n\n\n2015 – 2021\n\nDoctor of Medicine · Faculty of Medicine Vajira Hospital, Navamindradhiraj University, Bangkok\nAs a medical student, I was committed to working at a global level. I represented Thailand among Asian medical students and won an international competition. In my final year I was elected class president and initiated changes to school policy that supported student well-being and gender equality, including the COVID-19 vaccination programme for every medical student and a new dress policy that allowed female students to wear trousers.\nExperience\n\n2020: class president, final-year medical students. Ran the COVID-19 vaccination programme for all medical students, and led the change to the dress policy so female students could wear trousers, which are safer during emergencies such as CPR.\n2019: vice president, Vajira medical student association. Initiated projects on student well-being and financial literacy for young doctors. Head of the Health Literacy Unit, Vajira Volunteer Club.\n2018: started and led a team of four that won the EAMSC White Paper and Video Competition in Kathmandu, on preventing hepatitis B passing from mother to child.\n2015: Thai medical student delegate, Asian Medical Students’ Conference, India.\n2015 – 2019: Vajira Volunteer Club: rural community health, school building and children’s education programmes.\n\n\nPreventive medicine Vaccination Health communication Leadership\n\n\n\n\nUntil 2015\n\nHigh School · Vajiravudh College, Bangkok\nExperience\n\nClass secretary: organised school events and managed class documents.\nRoyal Award for volunteer dedication, 2015."
+  },
+  {
+    "objectID": "about.html#certifications",
+    "href": "about.html#certifications",
+    "title": "About me",
+    "section": "Certifications",
+    "text": "Certifications\n\n\nCertified Health Informatician Australasia (CHIA), AIDH 2026\nPDPA for Government Officers 2024\nGoogle Data Analytics Professional Certificate 2023\nFHIR® e-Learning, Standards and Interoperability Lab Thailand 2023\nMember, Alliance for Digital Health at Monash (ADAM) 2025\nMember, Asia eHealth Information Network (AeHIN) 2023\nThai Medical Licence 2021"
+  },
+  {
+    "objectID": "about.html#focus-areas",
+    "href": "about.html#focus-areas",
+    "title": "About me",
+    "section": "Focus areas",
+    "text": "Focus areas\n\n\n01 Prevention and longevity health Finding disease early and helping people stay healthy for longer, from health check-ups and vaccination to active TB screening with public health partners.\n\n\n02 Machine learning and AI development Building models and tools that support clinical work, including clinical decision support and automation that takes routine tasks off staff.\n\n\n03 Sustainable business development Business forecasting, health data standards and governance, so health services can grow, plan ahead and keep patients’ trust.\n\n\nProgramming languages: R, Python"
+  },
+  {
+    "objectID": "about.html#awards-and-honours",
+    "href": "about.html#awards-and-honours",
+    "title": "About me",
+    "section": "Awards and honours",
+    "text": "Awards and honours\n\n\nAustralia for ASEAN Scholarship 2024\nFirst runner-up, 1st V-Innovation Challenge, Faculty of Medicine Vajira Hospital 2024\nInnowhale Award, Health Promotion Accelerator, Thai Health Promotion Foundation 2022\nWinner, EAMSC White Paper and Video Competition, Kathmandu 2018\nRoyal Award for volunteer dedication, Bangkok 2015"
+  },
+  {
+    "objectID": "about.html#goals-i-work-toward",
+    "href": "about.html#goals-i-work-toward",
+    "title": "About me",
+    "section": "Goals I work toward",
+    "text": "Goals I work toward\nThe UN Sustainable Development Goals my work contributes to:"
+  },
+  {
+    "objectID": "about.html#activities",
+    "href": "about.html#activities",
+    "title": "About me",
+    "section": "Activities",
+    "text": "Activities\nOutside work and study, I like to stay active:\n\nBrazilian jiu-jitsu Surfing Hiking"
+  },
+  {
+    "objectID": "about.html#ready-to-connect",
+    "href": "about.html#ready-to-connect",
+    "title": "About me",
+    "section": "Ready to connect",
+    "text": "Ready to connect\nI’d like to meet people in business, technology and investment who want to build better health care. Over the next two years I plan to:\n\nbuild a health-tech business;\nkeep practising as a clinician one or two days a week;\nsupport Vajira Hospital’s leadership team with health data analysis;\nthen pursue a PhD in precision medicine.\n\n\n\n Certified Health Informatician Australasia (CHIA)Australasian Institute of Digital Health, 2026\n\n\nEmail: tnutachat@gmail.com\nLinkedIn: linkedin.com/in/tnutachat\nLocation: Melbourne VIC, Australia"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes on health data, forecasting and digital health.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\nNews\n\n\n\n\nThe first post on this site.\n\n\n\n\n\n\nNov 8, 2026\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yoky Treerasoradaj",
+    "section": "",
+    "text": "Yoky Treerasoradaj\nMedical doctor building medical AI and decision-support tools that improve people’s quality of life.\n\n\n  \n\n\n\n\nMedicine\nLicensed in Thailand since 2021, I work as a GP with a focus on preventive and longevity medicine. As an intern in a rural hospital during COVID-19, I watched weak data systems slow down care and contribute to deaths that could have been prevented. That was the year I started building data tools alongside treating patients. Since then I’ve used hospital data to guide tuberculosis screening with Bangkok’s public health teams, finding 101 people with suspected TB, more than half of them with no symptoms.\n\n\nData and AI\nMy first projects ran on Google Sheets and outgrew them once the data passed a thousand rows. Now I work in SQL, R and Python, and at Monash I build machine learning and time series forecasting models. In class competitions I placed 5th of 340 forecasting Google’s stock price, and in the top 10% of 285 teams with an ICU mortality model.\n\n\nBusiness improvement\nI redesign how hospital services run, using LEAN, automation and dashboards. I grew a hospital check-up service more than eightfold by bringing it to companies and communities. A UiPath robot I set up for 1,200 university students cut keying time per student by half, with no reports of repeated vaccine doses or duplicate blood tests in its first year.\n\n\n\nAbout me See my projects Download CV\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html",
+    "href": "projects/eamsc-white-paper/index.html",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "",
+    "text": "Event East Asian Medical Students’ Conference (EAMSC) 2018, AMSA International\n\n\nWhere and when Kathmandu, Nepal · January 2018\n\n\nTopic Hepatitis B passed from mother to child in Thailand, and the role of vaccination\n\n\nMy role Initiator and team leader\n\n\nTeam Four medical students from Vajira\n\n\nResult Winner, White Paper and Video Competition"
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#the-theme-hepatitis-b",
+    "href": "projects/eamsc-white-paper/index.html#the-theme-hepatitis-b",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "The theme: hepatitis B",
+    "text": "The theme: hepatitis B\nHepatitis B was the theme of EAMSC 2018. Within it, our team chose to focus on the route that matters most in Thailand: from mother to baby.\nHepatitis B is a virus that attacks the liver. In adults, most infections clear up. In newborns it’s the opposite: a baby infected at birth will very likely carry the virus for life, with a much higher risk of cirrhosis and liver cancer decades later. In countries like Thailand, the most common route has been from mother to baby around the time of birth.\nThat makes it one of the clearest cases for prevention in medicine. A vaccine given to the baby right after birth stops most of these infections, and Thailand has given hepatitis B vaccine to all newborns through its national immunisation programme for decades. But the protection isn’t perfect, and a small share of babies are still infected."
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#what-we-did",
+    "href": "projects/eamsc-white-paper/index.html#what-we-did",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "What we did",
+    "text": "What we did\nOur team reviewed the published research to show how much Thailand’s hepatitis B vaccination scheme has reduced transmission from mother to child, and where the remaining gap lies. We turned the findings into two pieces:\n\n\nWhite paper\nA written review of the evidence on mother-to-child transmission in Thailand and on the impact of the national vaccination scheme.\n\n\nAnimated video\nA three-minute animation that tells the same story to anyone, not just doctors: a mother, her newborn, a virus that wants to take over the baby’s liver, and the vaccine that stops it.\n\n\n\nThe video\n\n\n\nYour browser can't play this video.\n\nOur winning animation (3 minutes, on-screen text in English). The virus is a king trying to take the baby's liver castle. The doctor's vaccine defends it, but in about one baby in ten the vaccine alone isn't enough."
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#building-the-team",
+    "href": "projects/eamsc-white-paper/index.html#building-the-team",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "Building the team",
+    "text": "Building the team\nNobody asked us to enter. I saw the competition, chose our angle on the theme and invited three classmates I knew would do excellent work. Then I split the work into two parts, reviewing and writing the evidence, and making the animation, and matched each person to the part they did best. My job was to keep the two halves telling one story and to deliver on time.\nWe had no funding. Everything came from our own time, between classes and exams."
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#presenting-in-kathmandu",
+    "href": "projects/eamsc-white-paper/index.html#presenting-in-kathmandu",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "Presenting in Kathmandu",
+    "text": "Presenting in Kathmandu\nWe presented our work to medical students and judges from across East Asia at the conference in Kathmandu, and won.\n\n\n\n\nPresenting our work on stage at EAMSC 2018 in Kathmandu.\n\n\n\n\n\nReceiving the award at the conference.\n\n\n\n\n\nBack in Bangkok with the trophy and the faculty.\n\n\n\n\n\nWith friends from across Asia at the conference."
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#what-it-started",
+    "href": "projects/eamsc-white-paper/index.html#what-it-started",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "What it started",
+    "text": "What it started\nLooking back, this project set the direction for most of my work since:\n\nPrevention first. Stopping disease before it starts is still the thread through my work, from student vaccination and health check-ups to finding TB early.\nEvidence into action. It was my first time pulling research and data together to argue for a health policy, which is now my daily work.\nLeading a team from an idea. I started it, recruited the people and put each in the right role, the same way I’ve started projects ever since.\nTelling the story clearly. A good animation reached more people than the paper alone. I still try to make every result easy to understand."
+  },
+  {
+    "objectID": "projects/eamsc-white-paper/index.html#recognition",
+    "href": "projects/eamsc-white-paper/index.html#recognition",
+    "title": "Stopping Hepatitis B at Birth: An Award-Winning White Paper and Animation",
+    "section": "Recognition",
+    "text": "Recognition\n\nWinner, White Paper and Video Competition, East Asian Medical Students’ Conference 2018, Asian Medical Students’ Association (AMSA International), Kathmandu (EAMSC 2018 page)"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Past, current and future work, newest first.\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Mid-Table to the Top 2%: My Competitions at Monash\n\n\n\nMachine learning\n\nForecasting\n\nNeural networks\n\nPython\n\nR\n\n\n\nEight Monash class competitions: from beating about half the field to 5th of 340 forecasting Google’s stock price, and 27th of 285 with an ICU mortality model.\n\n\n\n\n\nyears\n\n\n2025 – 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTB VFind: Using Data to Find Tuberculosis Before It Spreads\n\n\n\nDecision support\n\nPublic health\n\nPreventive medicine\n\nBI dashboards\n\nCollaboration\n\n\n\nActive tuberculosis case finding in Bangkok’s Dusit area: hospital data points to hotspots, BMA teams screen there with portable X-ray, and every suspected case is referred…\n\n\n\n\n\nyears\n\n\n2024 – 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScaling Health Check-ups With Data and Partners\n\n\n\nPreventive medicine\n\nDecision support\n\nProject management\n\nCollaboration\n\nLEAN\n\nBusiness growth\n\n\n\nAs project manager, I built a check-up workflow that served companies and communities alike, grew from 1,054 check-ups a year to 8,526 in eight months, and carried out…\n\n\n\n\n\nyears\n\n\n2022 – 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClinical Decision Support That Grew a Check-up Service 8×\n\n\n\nDecision support\n\nDigital health\n\nPreventive medicine\n\nBusiness growth\n\n\n\nDecision support that drafts every health check-up report from clinical guidelines for a doctor to approve. Check-ups grew from 1,054 a year to 8,526 in eight months.\n\n\n\n\n\nyears\n\n\n2022 – 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Assisted Student Vaccination\n\n\n\nRPA\n\nVaccination\n\nPatient safety\n\nWorkflow redesign\n\nGoogle Sheets\n\nSQL\n\n\n\n1,200 safe immunisations a year, more than 50% less staff time per student, and no repeat doses or duplicate blood tests.\n\n\n\n\n\nyears\n\n\n2022 – 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStopping Hepatitis B at Birth: An Award-Winning White Paper and Animation\n\n\n\nPreventive medicine\n\nVaccination\n\nEvidence review\n\nHealth communication\n\nLeadership\n\n\n\nAs a third-year medical student I started and led a team of four to review the evidence on mother-to-child hepatitis B transmission in Thailand, and told the story in an…\n\n\n\n\n\nyears\n\n\n2018\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html",
+    "href": "projects/rpa-vaccination/index.html",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "",
+    "text": "Years 2022 – 2024\n\n\nMy role Initiator and project manager\n\n\nWhere Vajira Hospital, Navamindradhiraj University (NMU), Bangkok\n\n\nTeam Student health check-up team\n\n\nTools UiPath · Google Sheets · Google Forms · SQL\n\n\nFunding None. Self-initiated"
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#the-problem",
+    "href": "projects/rpa-vaccination/index.html#the-problem",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "The problem",
+    "text": "The problem\nEvery year, new NMU students come to Vajira Hospital for a health check and vaccinations before they start. Healthcare students also need proof of immunity, so they are tested for hepatitis B and varicella (VZV IgG, HBsAg, anti-HBs).\nBefore this project, staff checked each student’s vaccine and lab history by eye in the hospital information system (HIS), and doctors keyed every vaccine order by hand. With around 1,200 students, the checks failed often. In the year before I started, some students received three or four doses of the same vaccine, and some had the same VZV IgG test three to five times in one year. Each repeat meant an unnecessary needle, a cost to the hospital, and staff time taken away from patients."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#what-i-built",
+    "href": "projects/rpa-vaccination/index.html#what-i-built",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "What I built",
+    "text": "What I built\nThe aim was to give staff their time back: nurses back with patients, and doctors free to focus on the high-risk cases.\n\nPull the history from the record. I asked V-Wisdom, the hospital’s data team, to extract every student’s immunisation and lab history from the electronic medical record.\nSort students by risk. In Google Sheets I grouped students into healthcare and non-healthcare programmes, with subgroups based on their medical history.\nScreen before the needle. I designed an online risk assessment in Google Forms that every student completes before receiving a vaccine.\nLet a robot do the keying. I built a low-code UiPath robot that opens each visit and keys the lab and vaccine orders into the HIS. Clinicians reviewed every item before it went through."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#the-workflow-before-and-after",
+    "href": "projects/rpa-vaccination/index.html#the-workflow-before-and-after",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "The workflow, before and after",
+    "text": "The workflow, before and after\n\n\nBefore · staff and doctors keyed every order by hand and checked results by eye\n\nBefore: student vaccination workflow with manual keying\n\n\nUniversity staff\n\nCheck-up unit\nstaff\n\n\nLab technicians\n\n\nDoctors\n\n\nPharmacy\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew students arrive\nfor check-up\n\n\nOpen hospital\nvisit by hand\n!\n\n\nKey in lab orders\nVZV IgG, HBsAg,\nanti-HBs\n!\n\n\nPrint lab orders\n\n\nCollect blood\nspecimens\n\n\nKey vaccine orders\none by one\n(influenza, Tdap)\n!\n\n\nGive vaccines\n\n\nDischarge\n\n\nVaccine stock\nreport\n\n\nCheck each blood\nresult by eye\n!\n\n\nReport in Excel\n\n\nBook follow-up\nappointments\n\n\n\n\nAfter · a robot keys the orders, an online form screens risk, and doctors review only flagged students\n\nAfter: data-assisted student vaccination workflow with RPA\n\n\nUniversity staff\n\nCheck-up unit\nstaff\n\n\n\nDigital\nintegration\n\n\nLab technicians\n\n\nDoctors\n\n\nPharmacy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew students arrive\nfor check-up\n\n\nRobot opens visit\nand keys lab orders\n⚙\n\n\nOnline risk\nassessment\n(Google Form)\n⚙\n\n\nRobot keys vaccine\norders + check-out\n⚙\n\n\nCollect blood\nspecimens\n\n\nReview flagged\nhigh-risk students\n\n\nGive vaccines\n\n\nDischarge\n\n\nVaccine stock\nreport\n\n\nLab results from\nhospital IT, analysed\nin Google Sheets\n⚙\n\n\nReport in Excel\n\n\nAppointments +\ne-Service vaccine\nhistory report\n\n\n\n\nManual step\nWhere errors happened\nAutomated (robot, form or data pipeline)\nStart / end"
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#data-and-privacy",
+    "href": "projects/rpa-vaccination/index.html#data-and-privacy",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "Data and privacy",
+    "text": "Data and privacy\n\nSources: immunisation history and lab results from the hospital’s electronic medical record, extracted with SQL by the V-Wisdom data team.\nScale: about 1,200 students per intake.\nStorage: kept only on the hospital’s own drive, and sensitive data was deleted at the end of every year.\nAccess: only the healthcare vaccination team could see it.\nSafety check: every order the robot keyed was reviewed by a clinician."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#skills-and-technology",
+    "href": "projects/rpa-vaccination/index.html#skills-and-technology",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "Skills and technology",
+    "text": "Skills and technology\n\n\n\n\n\n\n\nTool\nWhat I used it for\n\n\n\n\nUiPath (low-code RPA)\nOpening visits and keying lab and vaccine orders into the HIS\n\n\nGoogle Forms\nOnline risk assessment before vaccination\n\n\nGoogle Sheets\nGrouping students by programme and medical history, and analysing lab results\n\n\nSQL\nExtracting immunisation and lab history from the medical record (with the data team)\n\n\n\nUiPath was new to me on this project. The hardest part was teaching the robot to work precisely on the HIS screens, which were designed for people to click through by hand.\nThen and now. I’d build it differently today. Instead of a robot clicking through screens, I’d connect to the hospital system through an API, keep the data in a proper database, and make the whole pipeline reproducible so another team could run it without me. I’d also design the safety checks into the system from the start."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#outcome",
+    "href": "projects/rpa-vaccination/index.html#outcome",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "Outcome",
+    "text": "Outcome\n\n\n\n\n\n\n\n\nMeasure\nBefore\nAfter (first year)\n\n\n\n\nKeying time per student\n10 minutes\nunder 5 minutes\n\n\nTime to process the whole intake\n5 days\n2 days\n\n\nRepeat doses and duplicate lab tests\nSeveral students affected\nNone reported\n\n\nStaff workload\nHigh, with hours spent on the system\nStill busy, but nobody had to spend their time keying\n\n\n\nThe numbers come from HIS records."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#contribution-to-healthcare",
+    "href": "projects/rpa-vaccination/index.html#contribution-to-healthcare",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "Contribution to healthcare",
+    "text": "Contribution to healthcare\n\nSafe: every student is screened for risk before vaccination, and no student was harmed by an extra, unneeded dose.\nEffective: students get the vaccines and tests their history says they need, and only those.\nPatient-centred: the system uses data management to put each student’s safety first.\nTimely: the whole intake is processed in two days instead of five.\nEfficient: half the keying time per student, and no money spent on duplicate tests.\nEquitable: every student goes through the same risk-based check."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#what-happened-next",
+    "href": "projects/rpa-vaccination/index.html#what-happened-next",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "What happened next",
+    "text": "What happened next\nThe project had no budget, so nobody took it over when I left for Monash in 2025, and the hospital went back to the old process. The hospital did let me trial something new, and I learned a lesson I still use: a project that depends on one person, or on spreadsheets that only one person understands, stops when that person leaves. That’s why reproducible data pipelines are now at the centre of how I work.\nWhere it could go. If hospitals coded their medicines with Thailand’s standard drug terminology (TMT), the risk grouping could run automatically across many hospitals and help prevent vaccine-preventable disease at a much larger scale."
+  },
+  {
+    "objectID": "projects/rpa-vaccination/index.html#photos",
+    "href": "projects/rpa-vaccination/index.html#photos",
+    "title": "Data-Assisted Student Vaccination",
+    "section": "Photos",
+    "text": "Photos\n\n\n\nThe team at the Vajira Check Up Center."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Stand on the shoulders of giants. See all my work on Google Scholar\nPeer-reviewed articles and abstracts, newest first. Each title links to the published paper."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\nNavadurong H, Teerawongsakul P, Trakarnvanich T, Ruamtawee W, Treerasoradaj N, Sethasine S. Time-dependent predictive accuracy of noninvasive liver scores for chronic kidney disease onset in MASLD. World Journal of Hepatology. 2026;18(7):122926. doi:10.4254/wjh.122926\nKhanthawong W, Introntakun K, Treerasoradaj N. The effect of a self-care support and education programme via the LINE application on knowledge and self-care behaviours among patients with hyperlipidaemia. Journal of Chulabhorn Royal Academy. 2026;8(1):13–22. ThaiJO article page"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nSethasine S, Trakarnvanich T, Ruamtawee W, Treerasoradaj N, Susantitaphong P. Association of noninvasive tests of liver fibrosis with chronic kidney disease in MASLD: a systematic review and meta-analysis. Scientific Reports. 2025;15(1):42681. doi:10.1038/s41598-025-26752-0\nSethasine S, Teerawongsakul P, Ruamtawee W, Treerasoradaj N, Navadurong H. Added value of the albumin–bilirubin score in predicting liver-related complications and mortality in metabolic-associated steatotic liver disease. World Journal of Gastroenterology. 2025;31(37):110829. doi:10.3748/wjg.v31.i37.110829\nTeerawongsakul P, Navadurong H, Treerasoradaj N, Ruamtawee W, Sethasine S. Clinical utility of the FIB-4 index for predicting cardiovascular outcomes in MASLD: a 10-year retrospective cohort study. European Heart Journal. 2025;46(Suppl 1):ehaf784.4235. Abstract doi:10.1093/eurheartj/ehaf784.4235"
+  }
+]

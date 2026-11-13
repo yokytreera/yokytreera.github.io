@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-03-01">
+<meta name="description" content="Active tuberculosis case finding in Bangkok’s Dusit area: hospital data points to hotspots, BMA teams screen there with portable X-ray, and every suspected case is referred and tracked. 1,978 people screened, 101 suspected TB found.">
+
+<title>TB VFind: Using Data to Find Tuberculosis Before It Spreads – Yoky Treerasoradaj</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d70d71b11ff2cac10a2ebbe453891e74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ae60a65e66011c9a67e9a1a54a9eb64c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d70d71b11ff2cac10a2ebbe453891e74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Added inside <head> of every page. Loads the Noto Sans Thai font from Google Fonts. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed project-page quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Yoky Treerasoradaj</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../th/about.html"> 
+<span class="menu-text">ไทย</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link active" data-scroll-target="#why-it-matters">Why it matters</a></li>
+  <li><a href="#using-hospital-data-to-decide-where-to-screen" id="toc-using-hospital-data-to-decide-where-to-screen" class="nav-link" data-scroll-target="#using-hospital-data-to-decide-where-to-screen">Using hospital data to decide where to screen</a></li>
+  <li><a href="#turning-free-text-into-data-we-can-use" id="toc-turning-free-text-into-data-we-can-use" class="nav-link" data-scroll-target="#turning-free-text-into-data-we-can-use">Turning free text into data we can use</a></li>
+  <li><a href="#working-as-one-team-across-bangkok" id="toc-working-as-one-team-across-bangkok" class="nav-link" data-scroll-target="#working-as-one-team-across-bangkok">Working as one team across Bangkok</a></li>
+  <li><a href="#what-the-data-shows" id="toc-what-the-data-shows" class="nav-link" data-scroll-target="#what-the-data-shows">What the data shows</a></li>
+  <li><a href="#why-prevention-is-worth-it" id="toc-why-prevention-is-worth-it" class="nav-link" data-scroll-target="#why-prevention-is-worth-it">Why prevention is worth it</a>
+  <ul class="collapse">
+  <li><a href="#better-quality-of-care" id="toc-better-quality-of-care" class="nav-link" data-scroll-target="#better-quality-of-care">Better quality of care</a></li>
+  </ul></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
+  <li><a href="#recognition" id="toc-recognition" class="nav-link" data-scroll-target="#recognition">Recognition</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">TB VFind: Using Data to Find Tuberculosis Before It Spreads</h1>
+<p class="subtitle lead">Hospital data, a live dashboard and Bangkok’s public health teams, working as one loop</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Decision support</div>
+    <div class="quarto-category">Public health</div>
+    <div class="quarto-category">Preventive medicine</div>
+    <div class="quarto-category">BI dashboards</div>
+    <div class="quarto-category">Collaboration</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Active tuberculosis case finding in Bangkok’s Dusit area: hospital data points to hotspots, BMA teams screen there with portable X-ray, and every suspected case is referred and tracked. 1,978 people screened, 101 suspected TB found.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="fact-grid">
+<div class="fact">
+<p><span class="fact-k">Programme</span> TB VFind, part of the “Dusit Model” for ending TB in the community</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">My role</span> Chief of Innovation: designed the data collection, the dashboard and the tracking workflow</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Where</span> Vajira Hospital and communities in Dusit and neighbouring Bangkok districts</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Partners</span> Bangkok Metropolitan Administration (BMA) health department and health centres; Fujifilm Thailand (portable X-ray)</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Users</span> The hospital TB clinic and public health nurses</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Tools</span> Google Forms, Google Sheets, a BI dashboard, ICD-10 coding, R for analysis</p>
+</div>
+</div>
+<div class="impact-band">
+<div class="impact">
+<p><span class="impact-n">1,978</span> <span class="impact-l">people screened, 2024–2026</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">101</span> <span class="impact-l">suspected TB found and referred</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">56%</span> <span class="impact-l">of them had no symptoms</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">2×</span> <span class="impact-l">faster data process</span></p>
+</div>
+</div>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
+<p>Tuberculosis is curable, but it still spreads quietly in Bangkok. Bangkok reports more TB cases than any other province in Thailand, and many people carry the disease for months before they feel sick enough to see a doctor. By then, they may have passed it on to their family, neighbours and co-workers.</p>
+<p>Waiting for patients to walk into a clinic finds TB late. <strong>Active case finding</strong> turns that around: the health team goes to the people most at risk, screens them with a chest X-ray and starts care early. The hard part is knowing where to go. That is a data problem, and it’s the part I worked on.</p>
+</section>
+<section id="using-hospital-data-to-decide-where-to-screen" class="level2">
+<h2 class="anchored" data-anchor-id="using-hospital-data-to-decide-where-to-screen">Using hospital data to decide where to screen</h2>
+<p>Every new TB patient at Vajira Hospital already has an address in the hospital record. On its own that’s just a field in a form. Put together, every three months, it becomes a map of where TB is active right now.</p>
+<figure class="cycle-figure figure">
+<svg class="cycle-svg" viewbox="0 0 640 430" role="img" aria-labelledby="tb-cycle-t">
+<title id="tb-cycle-t">The TB VFind loop: collect new TB cases, map hotspots, screen with BMA teams, refer and track, then collect again</title>
+<defs><marker id="tb-a" viewbox="0 0 10 10" refx="8" refy="5" markerwidth="7" markerheight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="cy-head"></path></marker></defs>
+<path class="cy-arc" d="M392,62 C500,70 545,120 552,168" marker-end="url(#tb-a)"></path>
+<path class="cy-arc" d="M552,262 C545,310 500,362 392,370" marker-end="url(#tb-a)"></path>
+<path class="cy-arc" d="M248,370 C140,362 95,310 88,262" marker-end="url(#tb-a)"></path>
+<path class="cy-arc" d="M88,168 C95,120 140,70 248,62" marker-end="url(#tb-a)"></path>
+<circle class="cy-core" cx="320" cy="215" r="74"></circle>
+<text class="cy-core-t" x="320" y="208" text-anchor="middle">Every</text>
+<text class="cy-core-t" x="320" y="230" text-anchor="middle">3 months</text>
+<g class="cy-node"><rect x="230" y="28" width="180" height="70" rx="16"></rect><text class="cy-n" x="320" y="56" text-anchor="middle">1 · Collect</text><text class="cy-d" x="320" y="78" text-anchor="middle">new TB cases and addresses</text></g>
+<g class="cy-node"><rect x="450" y="180" width="180" height="70" rx="16"></rect><text class="cy-n" x="540" y="208" text-anchor="middle">2 · Map</text><text class="cy-d" x="540" y="230" text-anchor="middle">hotspots on the dashboard</text></g>
+<g class="cy-node"><rect x="230" y="332" width="180" height="70" rx="16"></rect><text class="cy-n" x="320" y="360" text-anchor="middle">3 · Screen</text><text class="cy-d" x="320" y="382" text-anchor="middle">with BMA teams, on site</text></g>
+<g class="cy-node"><rect x="10" y="180" width="180" height="70" rx="16"></rect><text class="cy-n" x="100" y="208" text-anchor="middle">4 · Refer, track</text><text class="cy-d" x="100" y="230" text-anchor="middle">to the nearest BMA service</text></g>
+</svg>
+</figure>
+<ol type="1">
+<li><strong>Collect.</strong> Every three months, we pull the new TB cases from the hospital record, with the district and street of each patient’s home.</li>
+<li><strong>Map.</strong> The BI dashboard shows where new cases are clustering. Those hotspots are where the next round of screening goes.</li>
+<li><strong>Screen.</strong> Together with BMA public health teams, we go to the hotspot communities with a portable X-ray machine. Each person answers a short, structured set of risk questions and has a chest X-ray on the spot.</li>
+<li><strong>Refer and track.</strong> Anyone with suspected TB is referred to a named service, usually the BMA health centre or hospital closest to home, and the team follows them up there.</li>
+</ol>
+<p>Then the loop starts again with fresh data, so the screening keeps moving to where it is needed most.</p>
+</section>
+<section id="turning-free-text-into-data-we-can-use" class="level2">
+<h2 class="anchored" data-anchor-id="turning-free-text-into-data-we-can-use">Turning free text into data we can use</h2>
+<p>Before TB VFind, TB history was written as free text in the hospital information system. It was readable by a doctor, but impossible to count, compare or map. I redesigned the collection so each answer became a structured field from the start.</p>
+<div class="pipeline">
+<div class="pl-step">
+<p><span class="pl-n">1</span> <strong>Structured form.</strong> A TB VFind form in Google Forms replaces free-text notes: contact history, risk groups, symptoms, smoking, chronic disease, X-ray result.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">2</span> <strong>One shared sheet.</strong> Answers land in Google Sheets, where ICD-10 codes, risk group and incidence are calculated automatically.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">3</span> <strong>Live dashboard.</strong> A BI dashboard shows X-ray results, risk groups, referrals and hotspots, filtered by date, district and insurance scheme.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">4</span> <strong>Shared with partners.</strong> Clean, coded data can be shared with BMA services and exported for the national TB programme, instead of re-typed.</p>
+</div>
+</div>
+<p>With the data structured and coded from the start, our team found the whole process about twice as fast: no re-typing, no manual counting, and the dashboard updates itself.</p>
+<div class="shots shots-wide">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/01-dashboard-xray.jpg" class="img-fluid figure-img" alt="Dashboard with bar charts of normal and abnormal chest X-rays, a breakdown of abnormal results into suspected TB with or without cavity, and a donut chart of referral destinations"></p>
+<figcaption>The screening dashboard: chest X-ray results, X-ray findings among the abnormal films, and where each person was referred.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/02-dashboard-risk.jpg" class="img-fluid figure-img" alt="Dashboard with charts of insurance scheme, sex, TB contacts, risk groups, metabolic disease, symptoms and smoking"></p>
+<figcaption>The risk dashboard: insurance scheme, sex, contact type, TB risk groups, metabolic risk, symptoms and smoking history.</figcaption>
+</figure>
+</div>
+</div>
+<p>Both screenshots are from August 2024, part-way through the first year. Patient lists and the case map are left out to protect privacy.</p>
+</section>
+<section id="working-as-one-team-across-bangkok" class="level2">
+<h2 class="anchored" data-anchor-id="working-as-one-team-across-bangkok">Working as one team across Bangkok</h2>
+<p>TB doesn’t stop at a hospital’s front door, so neither could the project. It only works because people inside and outside the hospital share the same data and the same goal.</p>
+<div class="case-grid">
+<div class="case">
+<p><span class="case-k">Inside Vajira Hospital</span></p>
+<ul>
+<li>Pulmonary medicine and the TB clinic: clinical lead and diagnosis</li>
+<li>Vajira Wisdom Centre: the BI dashboard</li>
+<li>The ARI clinic: further tests for people referred to the hospital</li>
+</ul>
+</div>
+<div class="case">
+<p><span class="case-k">Bangkok Metropolitan Administration</span></p>
+<ul>
+<li>BMA health department: planning where and when to screen</li>
+<li>BMA public health centres and their nurses: community screening and follow-up close to home</li>
+<li>BMA hospitals, such as Klang Hospital: further tests and care</li>
+</ul>
+</div>
+<div class="case">
+<p><span class="case-k">Outside partners</span></p>
+<ul>
+<li>Fujifilm Thailand: the portable X-ray system used in the community (<a href="https://www.fujifilm.com/th/en/news/fujifilm-portable-x-ray-system-chosen">news release, March 2024</a>)</li>
+<li>National TB programme: case reporting and standards</li>
+</ul>
+</div>
+</div>
+<p>The referral is the key moment. <strong>Every one of the 101 people with suspected TB was referred to a named service: 76 to BMA health centres and other public health services near home, and 25 to Vajira Hospital’s ARI clinic.</strong> Because the BMA network covers primary care across the city, patients can be followed up where they live, which is what keeps them on treatment.</p>
+</section>
+<section id="what-the-data-shows" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-data-shows">What the data shows</h2>
+<!-- Generated by _notes/tools/make_tb_charts.py. Edit the numbers there. -->
+<figure class="bc-figure figure">
+<figcaption class="bc-cap"><strong>From screening to care</strong> · March 2024 to July 2026</figcaption>
+<div class="bc-scroll bc-scroll-sm"><svg class="bc-svg" viewbox="0 0 600 230" role="img" aria-labelledby="tb-funnel-t">
+<title id="tb-funnel-t">From screening to care: 1,978 screened, 244 abnormal X-rays, 101 suspected TB, 101 referred</title>
+<text class="bc-x" x="208" y="26" text-anchor="end">Screened in the community</text>
+<text class="bc-sub" x="208" y="42" text-anchor="end">chest X-ray and risk questions</text>
+<g><title>Screened in the community: 1,978</title><rect class="bc-cds" x="220" y="10" width="324.0" height="34" rx="4"></rect></g>
+<text class="bc-val" x="552.0" y="32">1,978</text>
+<text class="bc-x" x="208" y="80" text-anchor="end">Abnormal chest X-ray</text>
+<text class="bc-sub" x="208" y="96" text-anchor="end">12% of those screened</text>
+<g><title>Abnormal chest X-ray: 244</title><rect class="bc-cds" x="220" y="64" width="40.0" height="34" rx="4"></rect></g>
+<text class="bc-val" x="268.0" y="86">244</text>
+<text class="bc-x" x="208" y="134" text-anchor="end">Suspected TB</text>
+<text class="bc-sub" x="208" y="150" text-anchor="end">1 in 20 people screened</text>
+<g><title>Suspected TB: 101</title><rect class="bc-cds" x="220" y="118" width="16.5" height="34" rx="4"></rect></g>
+<text class="bc-val" x="244.5" y="140">101</text>
+<text class="bc-x" x="208" y="188" text-anchor="end">Referred to a named service</text>
+<text class="bc-sub" x="208" y="204" text-anchor="end">76 to BMA services, 25 to Vajira</text>
+<g><title>Referred to a named service: 101</title><rect class="bc-cds" x="220" y="172" width="16.5" height="34" rx="4"></rect></g>
+<text class="bc-val" x="244.5" y="194">101</text>
+</svg></div>
+
+</figure>
+<p>Between March 2024 and July 2026, the teams screened 1,978 people. One in eight had an abnormal chest X-ray, and 101 people, about 1 in 20 of everyone screened, had an X-ray that looked like TB.</p>
+<!-- Generated by _notes/tools/make_tb_charts.py. Edit the numbers there. -->
+<figure class="bc-figure figure">
+<figcaption class="bc-cap"><strong>The 101 people with suspected TB</strong> · how many felt unwell</figcaption>
+<div class="bc-scroll bc-scroll-sm"><svg class="bc-svg" viewbox="0 0 600 64" role="img" aria-labelledby="tb-sym-t">
+<title id="tb-sym-t">Of 101 people with suspected TB, 57 had no symptoms and 44 had symptoms</title>
+<g><title>No symptoms: 57 of 101</title><rect class="bc-cds" x="0" y="10" width="337.6" height="44" rx="4"></rect></g>
+<g><title>Some symptoms: 44 of 101</title><rect class="bc-man" x="339.6" y="10" width="260.4" height="44" rx="4"></rect></g>
+<text class="bc-in" x="14" y="38">57 · no symptoms</text>
+<text class="bc-in-2" x="586" y="38" text-anchor="end">44 · cough, fever or breathless</text>
+</svg></div>
+
+</figure>
+<p>This is the strongest case for going out to find TB. <strong>57 of the 101 people with suspected TB had no symptoms.</strong> If we had only screened people who said they had a cough, more than half of them would have been missed, and they would have kept living, working and sharing rooms with others without knowing.</p>
+<!-- Generated by _notes/tools/make_tb_charts.py. Edit the numbers there. -->
+<figure class="bc-figure figure">
+<figcaption class="bc-cap"><strong>Suspected TB per 100 people screened</strong> · by year</figcaption>
+<div class="bc-scroll"><svg class="bc-svg" viewbox="0 0 720 300" role="img" aria-labelledby="tb-rate-t">
+<title id="tb-rate-t">Suspected TB per 100 people screened: 6.2 in 2024, 5.1 in 2025, 2.5 in January to July 2026</title>
+<line class="bc-grid" x1="58" x2="704" y1="248.0" y2="248.0"></line>
+<text class="bc-tick" x="50" y="252.0" text-anchor="end">0%</text>
+<line class="bc-grid" x1="58" x2="704" y1="192.5" y2="192.5"></line>
+<text class="bc-tick" x="50" y="196.5" text-anchor="end">2%</text>
+<line class="bc-grid" x1="58" x2="704" y1="137.0" y2="137.0"></line>
+<text class="bc-tick" x="50" y="141.0" text-anchor="end">4%</text>
+<line class="bc-grid" x1="58" x2="704" y1="81.5" y2="81.5"></line>
+<text class="bc-tick" x="50" y="85.5" text-anchor="end">6%</text>
+<line class="bc-grid" x1="58" x2="704" y1="26.0" y2="26.0"></line>
+<text class="bc-tick" x="50" y="30.0" text-anchor="end">8%</text>
+<g class="bc-col"><title>2024 (Mar – Dec): 47 suspected TB among 752 screened (6.2%)</title>
+<rect class="bc-hit" x="58.0" y="26" width="215.3" height="222"></rect>
+<rect class="bc-cds" x="117.7" y="74.6" width="96.0" height="173.4" rx="4"></rect></g>
+<text class="bc-val" x="165.7" y="66.6" text-anchor="middle">6.2%</text>
+<text class="bc-x" x="165.7" y="266" text-anchor="middle">2024 · Mar – Dec</text>
+<text class="bc-sub" x="165.7" y="282" text-anchor="middle">47 of 752 screened</text>
+<g class="bc-col"><title>2025 (full year): 46 suspected TB among 905 screened (5.1%)</title>
+<rect class="bc-hit" x="273.3" y="26" width="215.3" height="222"></rect>
+<rect class="bc-cds" x="333.0" y="107.0" width="96.0" height="141.0" rx="4"></rect></g>
+<text class="bc-val" x="381.0" y="99.0" text-anchor="middle">5.1%</text>
+<text class="bc-x" x="381.0" y="266" text-anchor="middle">2025 · full year</text>
+<text class="bc-sub" x="381.0" y="282" text-anchor="middle">46 of 905 screened</text>
+<g class="bc-col"><title>2026 (Jan – Jul): 8 suspected TB among 320 screened (2.5%)</title>
+<rect class="bc-hit" x="488.7" y="26" width="215.3" height="222"></rect>
+<rect class="bc-cds" x="548.3" y="178.6" width="96.0" height="69.4" rx="4"></rect></g>
+<text class="bc-val" x="596.3" y="170.6" text-anchor="middle">2.5%</text>
+<text class="bc-x" x="596.3" y="266" text-anchor="middle">2026 · Jan – Jul</text>
+<text class="bc-sub" x="596.3" y="282" text-anchor="middle">8 of 320 screened</text>
+</svg></div>
+
+</figure>
+<p>Over three rounds of the loop, the share of people with suspected TB fell from 6.2% of those screened in 2024 to 5.1% in 2025 and 2.5% in the first seven months of 2026. This is what we hoped to see as cases in the hotspots are found and treated. It isn’t proof on its own: the communities screened change from round to round, and 2026 is a part year. That is why the next step is better, standardised data.</p>
+<p>Of the 19 suspected cases with a final diagnosis recorded back in our sheet so far, 8 were confirmed active TB. The rest of the follow-up happens in BMA services, which is exactly why shared data matters.</p>
+</section>
+<section id="why-prevention-is-worth-it" class="level2">
+<h2 class="anchored" data-anchor-id="why-prevention-is-worth-it">Why prevention is worth it</h2>
+<p>Finding one person with TB early protects more than one person. The WHO estimates that someone with untreated active TB can infect 10 to 15 other people in a year. Every early case stops a chain of new ones, and treating TB early is simpler, shorter and kinder than treating it late.</p>
+<p>It pays off for the health system too. Japan is a good example. In 1955, TB took up 27.4% of the country’s medical spending. After decades of sustained TB control, it had fallen to 0.08% by 2011. Our team estimates that scaling a data-driven approach like TB VFind could save Thailand around <strong>฿70 million a year</strong> in TB control costs. That is our projection, not a measured result.</p>
+<section id="better-quality-of-care" class="level3">
+<h3 class="anchored" data-anchor-id="better-quality-of-care">Better quality of care</h3>
+<div class="case-grid">
+<div class="case">
+<p><span class="case-k">Timely</span></p>
+<p>TB is found before symptoms start, in 56% of the suspected cases.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Equitable</span></p>
+<p>Screening goes to crowded communities, migrants and people without insurance, who rarely come to a hospital first.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Patient-centred</span></p>
+<p>X-rays happen in the community, and follow-up is at the health centre closest to home.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Effective</span></p>
+<p>Hotspot data sends screening to the places with the most new cases.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Efficient</span></p>
+<p>Structured data and automatic coding make reporting about twice as fast, with no re-typing.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Safe</span></p>
+<p>Every suspected case has a named referral and is tracked, so fewer people are lost between services.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next</h2>
+<ul>
+<li><strong>Data standardisation.</strong> Agree on shared data standards for TB tracking across hospitals and BMA services, so results can be compared fairly over time.</li>
+<li><strong>A custom application.</strong> Move from Google Workspace to a long-term, purpose-built system.</li>
+<li><strong>Wider collaboration.</strong> Work with digital-economy partners, including telecom companies, to reach more communities.</li>
+<li><strong>A health data centre.</strong> Lay the groundwork for a standardised health data centre that supports future research and ASEAN-wide collaboration.</li>
+</ul>
+<p>TB VFind supports Thailand’s operational plan to end TB and the global goal to end the TB epidemic by 2030.</p>
+</section>
+<section id="recognition" class="level2">
+<h2 class="anchored" data-anchor-id="recognition">Recognition</h2>
+<ul>
+<li>First runner-up, Process and Service Innovation, 1st V-Innovation Challenge, Faculty of Medicine Vajira Hospital, Navamindradhiraj University (5 November 2024)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/03-v-innovation-award.jpg" class="award-photo img-fluid figure-img" alt="Yoky in green scrubs receiving an award certificate from a faculty member in front of a screen reading 1st V-Innovation Challenges, 5 November 2024"></p>
+<figcaption>Receiving the first runner-up award for TB VFind at the 1st V-Innovation Challenge.</figcaption>
+</figure>
+</div>
+<div class="sdg-row sdg-project">
+<p><img src="../../images/sdg/sdg-3.png" class="img-fluid" alt="UN Sustainable Development Goal 3: Good health and well-being"> <img src="../../images/sdg/sdg-10.png" class="img-fluid" alt="UN Sustainable Development Goal 10: Reduced inequalities"> <img src="../../images/sdg/sdg-11.png" class="img-fluid" alt="UN Sustainable Development Goal 11: Sustainable cities and communities"></p>
+</div>
+<p>Built by the Vajira Alumni Team, founded by Dr Pipu Tavornshevin. All figures on this page are totals from the TB VFind screening records; no patient details are shown.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<!--
+  Added to the end of every page. Makes the EN / ไทย button work.
+
+  Only the About page has a Thai version (th/about.qmd).
+    - On any English page, the button says "ไทย" and opens th/about.html
+    - On the Thai About page, it says "EN" and goes back to about.html
+-->
+<script>
+(function () {
+  // Find where the site root is (works on your Mac AND on GitHub).
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var root = new URL(meta ? meta.content : "./", location.href).pathname;
+  var here = decodeURI(location.pathname).slice(root.length);
+  var isThai = here.indexOf("th/") === 0;
+
+  // The button is the menu item labelled "ไทย" in _quarto.yml.
+  var sw = null;
+  document.querySelectorAll("#quarto-header a.nav-link .menu-text").forEach(function (t) {
+    if (t.textContent.trim() === "ไทย") sw = t.closest("a");
+  });
+  if (!sw) return;
+  sw.id = "lang-switch";
+  if (isThai) {
+    sw.href = root + "about.html";
+    sw.querySelector(".menu-text").textContent = "EN";
+    sw.setAttribute("lang", "en");
+    sw.setAttribute("aria-label", "Switch to English");
+  } else {
+    sw.setAttribute("lang", "th");
+    sw.setAttribute("aria-label", "ข้อมูลภาษาไทย");
+  }
+})();
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/yokytreera\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Yoky Treerasoradaj</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/tnutachat/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:tnutachat@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

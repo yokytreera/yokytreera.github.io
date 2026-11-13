@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/monash-kaggle-journey/index.html",
+      "/projects/tb-tracking-dss/index.html",
+      "/projects/health-check-campaign/index.html",
+      "/projects/clinical-decision-support-app/index.html",
+      "/projects/rpa-vaccination/index.html",
+      "/projects/eamsc-white-paper/index.html"
+    ]
+  }
+]

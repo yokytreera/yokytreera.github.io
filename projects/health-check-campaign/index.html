@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-12-01">
+<meta name="description" content="As project manager, I built a check-up workflow that served companies and communities alike, grew from 1,054 check-ups a year to 8,526 in eight months, and carried out around 33,000 free check-ups for Bangkok’s One Million campaign in the Dusit and District 4 zone.">
+
+<title>Scaling Health Check-ups With Data and Partners – Yoky Treerasoradaj</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d70d71b11ff2cac10a2ebbe453891e74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ae60a65e66011c9a67e9a1a54a9eb64c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d70d71b11ff2cac10a2ebbe453891e74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Added inside <head> of every page. Loads the Noto Sans Thai font from Google Fonts. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed project-page quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
+        setTimeout(() => {
+          window.scrollTo(0, scrollY);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Yoky Treerasoradaj</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../th/about.html"> 
+<span class="menu-text">ไทย</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-idea-one-system-two-missions" id="toc-the-idea-one-system-two-missions" class="nav-link active" data-scroll-target="#the-idea-one-system-two-missions">The idea: one system, two missions</a></li>
+  <li><a href="#how-the-workflow-fits-together" id="toc-how-the-workflow-fits-together" class="nav-link" data-scroll-target="#how-the-workflow-fits-together">How the workflow fits together</a></li>
+  <li><a href="#results-growth-without-lowering-the-standard" id="toc-results-growth-without-lowering-the-standard" class="nav-link" data-scroll-target="#results-growth-without-lowering-the-standard">Results: growth without lowering the standard</a></li>
+  <li><a href="#taking-it-to-the-community-the-one-million-campaign" id="toc-taking-it-to-the-community-the-one-million-campaign" class="nav-link" data-scroll-target="#taking-it-to-the-community-the-one-million-campaign">Taking it to the community: the One Million campaign</a></li>
+  <li><a href="#working-across-organisations" id="toc-working-across-organisations" class="nav-link" data-scroll-target="#working-across-organisations">Working across organisations</a></li>
+  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why it matters</a></li>
+  <li><a href="#building-something-bigger" id="toc-building-something-bigger" class="nav-link" data-scroll-target="#building-something-bigger">Building something bigger</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Scaling Health Check-ups With Data and Partners</h1>
+<p class="subtitle lead">One check-up workflow, powered by decision support, serving companies and around 33,000 people in Bangkok’s One Million free health check-up campaign</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Preventive medicine</div>
+    <div class="quarto-category">Decision support</div>
+    <div class="quarto-category">Project management</div>
+    <div class="quarto-category">Collaboration</div>
+    <div class="quarto-category">LEAN</div>
+    <div class="quarto-category">Business growth</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    As project manager, I built a check-up workflow that served companies and communities alike, grew from 1,054 check-ups a year to 8,526 in eight months, and carried out around 33,000 free check-ups for Bangkok’s One Million campaign in the Dusit and District 4 zone.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="fact-grid">
+<div class="fact">
+<p><span class="fact-k">Programmes</span> Off-site health check-ups for companies, and Vajira Hospital’s unit in Bangkok’s One Million free health check-up caravan</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">My role</span> Project manager: workflow design, shared digital workspace, dashboard and partner coordination</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Where</span> Vajira Hospital Check Up Center, workplaces across Bangkok, and communities in the Dusit and District 4 zone</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Partners</span> Bangkok Metropolitan Administration (BMA) Medical Service Department, Health Department and Dusit District Office; client companies</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Built on</span> <a href="../../projects/clinical-decision-support-app/index.html">Clinical decision support</a> for check-up reports, LEAN patient flow, a BI dashboard</p>
+</div>
+<div class="fact">
+<p><span class="fact-k">Years</span> 2022 – 2025</p>
+</div>
+</div>
+<div class="impact-band">
+<div class="impact">
+<p><span class="impact-n">8×</span> <span class="impact-l">check-ups: 1,054 in 2021, 8,526 in Jan–Aug 2023</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">8,226</span> <span class="impact-l">off-site check-ups for companies in eight months</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">96%</span> <span class="impact-l">of reports drafted by decision support</span></p>
+</div>
+<div class="impact">
+<p><span class="impact-n">~33,000</span> <span class="impact-l">free check-ups by our unit in the One Million campaign</span></p>
+</div>
+</div>
+<section id="the-idea-one-system-two-missions" class="level2">
+<h2 class="anchored" data-anchor-id="the-idea-one-system-two-missions">The idea: one system, two missions</h2>
+<p>Most chronic diseases, such as diabetes, high blood pressure and high cholesterol, can be found years before they cause harm. A health check-up is the cheapest moment to catch them. The problem is scale: every check-up needs a doctor to read the results and write advice, and doctor time runs out long before demand does.</p>
+<p>I managed two programmes that ran on the same answer to that problem.</p>
+<div class="case-grid case-grid-2">
+<div class="case">
+<p><span class="case-k">Mission 1 · Business</span></p>
+<p><strong>Off-site check-ups for companies.</strong> The hospital takes its check-up service to the workplace. One agreement with a company brings in hundreds of employees at once, and the income helps the hospital fund its other services.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Mission 2 · Public health</span></p>
+<p><strong>Free check-ups for the community.</strong> Bangkok’s One Million Health Check-up campaign brings free screening to people who rarely see a doctor. Vajira Hospital ran a mobile unit as part of it, covering the Dusit and District 4 zone.</p>
+</div>
+</div>
+<p>Both depended on the same three things: a fast, well-organised check-up day, reports that don’t wait for a doctor’s free hour, and partners who bring the people.</p>
+</section>
+<section id="how-the-workflow-fits-together" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-workflow-fits-together">How the workflow fits together</h2>
+<div class="pipeline">
+<div class="pl-step">
+<p><span class="pl-n">1</span> <strong>Plan with the partner.</strong> A company’s HR team or a district office agrees the date, the place and who comes. Everyone shares one digital workspace, so the plan, the lists and the updates sit in one place.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">2</span> <strong>Check-up day.</strong> A LEAN flow takes each person through registration, vital signs, blood tests and imaging in a fixed order, with no back-tracking and fewer queues.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">3</span> <strong>Decision support drafts the report.</strong> Rules from Thai and international guidelines suggest the report and next steps. A doctor checks, edits and approves every one.</p>
+</div>
+<div class="pl-step">
+<p><span class="pl-n">4</span> <strong>Results and follow-up.</strong> People get plain-language results with a clear next step. The dashboard shows the team how many were seen, what’s pending and what needs follow-up.</p>
+</div>
+</div>
+<p>The decision support system is the engine. Without it, two doctors writing more than 60 reports a day by hand set the ceiling. With it, the same doctors approve drafted reports, and growth is limited by how many partners we can bring in, not by how fast we can type. The full story of that system is on the <a href="../../projects/clinical-decision-support-app/index.html">clinical decision support page</a>.</p>
+</section>
+<section id="results-growth-without-lowering-the-standard" class="level2">
+<h2 class="anchored" data-anchor-id="results-growth-without-lowering-the-standard">Results: growth without lowering the standard</h2>
+<!-- Generated by _notes/tools/make_cdss_charts.py. Edit the numbers there. -->
+<div class="bc-wrap" id="chart-growth">
+<figure class="bc-figure figure">
+<figcaption class="bc-cap"><strong>Check-ups per year</strong> · 1,054 in 2021, 8,526 in the first eight months of 2023</figcaption>
+<div class="bc-scroll"><svg class="bc-svg" viewbox="0 0 720 330" role="img" aria-labelledby="cdss-years-t">
+<title id="cdss-years-t">Health check-ups per year, by how the report was produced</title>
+<line class="bc-grid" x1="58" x2="704" y1="278.0" y2="278.0"></line>
+<text class="bc-tick" x="50" y="282.0" text-anchor="end">0</text>
+<line class="bc-grid" x1="58" x2="704" y1="215.0" y2="215.0"></line>
+<text class="bc-tick" x="50" y="219.0" text-anchor="end">2,500</text>
+<line class="bc-grid" x1="58" x2="704" y1="152.0" y2="152.0"></line>
+<text class="bc-tick" x="50" y="156.0" text-anchor="end">5,000</text>
+<line class="bc-grid" x1="58" x2="704" y1="89.0" y2="89.0"></line>
+<text class="bc-tick" x="50" y="93.0" text-anchor="end">7,500</text>
+<line class="bc-grid" x1="58" x2="704" y1="26.0" y2="26.0"></line>
+<text class="bc-tick" x="50" y="30.0" text-anchor="end">10,000</text>
+<g class="bc-col"><title>2021 (full year): 1,054 check-ups; 1,054 reported by hand, 0 with decision support</title>
+<rect class="bc-hit" x="58.0" y="26" width="215.3" height="252"></rect>
+<rect class="bc-man" x="133.7" y="251.4" width="64.0" height="26.6" rx="2"></rect>
+</g>
+<text class="bc-val" x="165.7" y="244.4" text-anchor="middle">1,054</text>
+<text class="bc-x" x="165.7" y="296" text-anchor="middle">2021</text>
+<text class="bc-sub" x="165.7" y="312" text-anchor="middle">full year</text>
+<g class="bc-col"><title>2022 (full year): 4,373 check-ups; 943 reported by hand, 3,430 with decision support</title>
+<rect class="bc-hit" x="273.3" y="26" width="215.3" height="252"></rect>
+<rect class="bc-man" x="349.0" y="254.2" width="64.0" height="23.8" rx="2"></rect>
+<rect class="bc-cds" x="349.0" y="167.8" width="64.0" height="84.4" rx="4"></rect>
+</g>
+<text class="bc-val" x="381.0" y="160.8" text-anchor="middle">4,373</text>
+<text class="bc-x" x="381.0" y="296" text-anchor="middle">2022</text>
+<text class="bc-sub" x="381.0" y="312" text-anchor="middle">full year</text>
+<g class="bc-col"><title>2023 (Jan – Aug only): 8,526 check-ups; 300 reported by hand, 8,226 with decision support</title>
+<rect class="bc-hit" x="488.7" y="26" width="215.3" height="252"></rect>
+<rect class="bc-man" x="564.3" y="270.4" width="64.0" height="7.6" rx="2"></rect>
+<rect class="bc-cds" x="564.3" y="63.1" width="64.0" height="205.3" rx="4"></rect>
+</g>
+<text class="bc-val" x="596.3" y="56.1" text-anchor="middle">8,526</text>
+<text class="bc-x" x="596.3" y="296" text-anchor="middle">2023</text>
+<text class="bc-sub" x="596.3" y="312" text-anchor="middle">Jan – Aug only</text>
+</svg></div>
+<div class="bc-legend"><span><i class="k cds"></i>Report drafted with decision support, approved by a doctor</span><span><i class="k man"></i>Report written by hand</span></div>
+</figure>
+</div>
+<p>Check-ups grew from 1,054 in 2021 to 4,373 in 2022, and to 8,526 in only the first eight months of 2023. Almost all of that growth, 8,226 check-ups, came from off-site check-ups for companies. Every report was still approved by a doctor and based on clinical guidelines.</p>
+</section>
+<section id="taking-it-to-the-community-the-one-million-campaign" class="level2">
+<h2 class="anchored" data-anchor-id="taking-it-to-the-community-the-one-million-campaign">Taking it to the community: the One Million campaign</h2>
+<p>In December 2023 the BMA launched a campaign to give at least one million Bangkok residents a free health check-up, with hospitals, medical schools and district offices across all 50 districts (<a href="https://www.nationthailand.com/thailand/general/40034086">Nation Thailand</a>). By March 2026 it had passed 1,002,629 people (<a href="https://pr-bangkok.com/?p=587387">BMA news</a>).</p>
+<p>Vajira Hospital joined with a mobile check-up caravan for the Dusit and District 4 zone. Our team brought the same workflow, the same digital workspace and the same report system that we had built for companies into the community. <strong>Our unit carried out around 33,000 check-ups, out of roughly 300,000 in the zone.</strong></p>
+<p><strong>The kick-off, 23 December 2024.</strong> The caravan opened at the Army Transportation Officers’ Association in Dusit District, which offered the venue. The first people we screened were motorcycle taxi riders, who spend all day in traffic, strong sun and PM2.5 dust, together with staff of the Dusit District Office. It was a joint effort with the BMA Medical Service Department, the BMA Health Department and the Dusit District Office. Bangkok’s Deputy Governor, the Dusit District Director, and Vajira’s Dean and Hospital Director came to support the team on the day (<a href="https://www.facebook.com/medvjr.official/">Faculty of Medicine Vajira Hospital</a>).</p>
+<div class="photo-grid">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/01-caravan-hall.jpg" class="img-fluid figure-img" alt="A large hall with screening desks along the wall and rows of white chairs for people waiting"></p>
+<figcaption>The caravan set up in the hall at the Army Transportation Officers’ Association, Dusit District.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/02-screening-desks.jpg" class="img-fluid figure-img" alt="Staff in black team shirts guiding people in yellow shirts to screening desks"></p>
+<figcaption>Screening desks on the day. The faces of people being screened are blurred.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/03-leaders-visit.jpg" class="img-fluid figure-img" alt="Officials and staff in black campaign shirts gathered around a table of emergency equipment"></p>
+<figcaption>BMA and Vajira leaders visit the team during the kick-off.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/04-checkup-team.jpg" class="img-fluid figure-img" alt="Five members of the check-up team smiling in front of the Vajira Check Up Center sign"></p>
+<figcaption>The Vajira Check Up Center team.</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="working-across-organisations" class="level2">
+<h2 class="anchored" data-anchor-id="working-across-organisations">Working across organisations</h2>
+<div class="case-grid">
+<div class="case">
+<p><span class="case-k">Vajira Hospital</span></p>
+<ul>
+<li>Check Up Center: doctors, nurses and staff on every check-up day</li>
+<li>Software engineers: the patient app and decision support</li>
+<li>Faculty and hospital leadership: backing to scale up</li>
+</ul>
+</div>
+<div class="case">
+<p><span class="case-k">Bangkok Metropolitan Administration</span></p>
+<ul>
+<li>Medical Service Department and Health Department: the One Million campaign</li>
+<li>Dusit District Office: reaching local groups and organising the venue</li>
+</ul>
+</div>
+<div class="case">
+<p><span class="case-k">Companies and community hosts</span></p>
+<ul>
+<li>Client companies: bringing their whole workforce, with data sharing and data processing agreements signed</li>
+<li>Community hosts, such as the Army Transportation Department: venues close to where people work</li>
+</ul>
+</div>
+</div>
+<p>What I learned is that partnerships are the real channel. One conversation with an HR manager or a district director can reach more people than months of waiting for walk-ins.</p>
+</section>
+<section id="why-it-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters">Why it matters</h2>
+<div class="case-grid">
+<div class="case">
+<p><span class="case-k">Timely</span></p>
+<p>Chronic disease is found at a check-up, years before it becomes a stroke or a heart attack.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Equitable</span></p>
+<p>Free screening goes to motorcycle taxi riders and other workers who can’t easily take a day off to see a doctor.</p>
+</div>
+<div class="case">
+<p><span class="case-k">Efficient</span></p>
+<p>Doctors approve drafted reports instead of writing each one, so more people can be seen without more doctors.</p>
+</div>
+</div>
+</section>
+<section id="building-something-bigger" class="level2">
+<h2 class="anchored" data-anchor-id="building-something-bigger">Building something bigger</h2>
+<p>The check-up programmes, the <a href="../../projects/tb-tracking-dss/index.html">TB VFind</a> screening loop and the decision support system all point the same way: prevention works best when data, clinical rules and partners are joined up.</p>
+<ul>
+<li><strong>One record across services.</strong> Today a person may be screened by a caravan, a company check-up and a health centre, and each keeps its own record. Linking them would end repeated tests and show each person’s health over time.</li>
+<li><strong>Follow-up close to home.</strong> Abnormal results could go straight to the BMA health centre nearest the person’s home, the way TB VFind already refers suspected TB cases.</li>
+<li><strong>Population health insight.</strong> With consent and proper governance, the combined data could show each district’s health risks and guide where to screen next.</li>
+<li><strong>Longevity and precision prevention.</strong> The same model can grow into longevity check-ups, adding genetic and fitness testing.</li>
+</ul>
+<p>The 33,000 figure is our unit’s total; the citywide total comes from the BMA.</p>
+<div class="sdg-row sdg-project">
+<p><img src="../../images/sdg/sdg-3.png" class="img-fluid" alt="UN Sustainable Development Goal 3: Good health and well-being"> <img src="../../images/sdg/sdg-8.png" class="img-fluid" alt="UN Sustainable Development Goal 8: Decent work and economic growth"> <img src="../../images/sdg/sdg-11.png" class="img-fluid" alt="UN Sustainable Development Goal 11: Sustainable cities and communities"></p>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<!--
+  Added to the end of every page. Makes the EN / ไทย button work.
+
+  Only the About page has a Thai version (th/about.qmd).
+    - On any English page, the button says "ไทย" and opens th/about.html
+    - On the Thai About page, it says "EN" and goes back to about.html
+-->
+<script>
+(function () {
+  // Find where the site root is (works on your Mac AND on GitHub).
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var root = new URL(meta ? meta.content : "./", location.href).pathname;
+  var here = decodeURI(location.pathname).slice(root.length);
+  var isThai = here.indexOf("th/") === 0;
+
+  // The button is the menu item labelled "ไทย" in _quarto.yml.
+  var sw = null;
+  document.querySelectorAll("#quarto-header a.nav-link .menu-text").forEach(function (t) {
+    if (t.textContent.trim() === "ไทย") sw = t.closest("a");
+  });
+  if (!sw) return;
+  sw.id = "lang-switch";
+  if (isThai) {
+    sw.href = root + "about.html";
+    sw.querySelector(".menu-text").textContent = "EN";
+    sw.setAttribute("lang", "en");
+    sw.setAttribute("aria-label", "Switch to English");
+  } else {
+    sw.setAttribute("lang", "th");
+    sw.setAttribute("aria-label", "ข้อมูลภาษาไทย");
+  }
+})();
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/yokytreera\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Yoky Treerasoradaj</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/tnutachat/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:tnutachat@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
